@@ -18,7 +18,7 @@ export default function MobileHeader() {
 			<div className="industify_fn_mobilemenu_wrap">
 				<div className="industify_fn_toppanel">
 					<div className="left_panel">
-						<div className="info"><Link href="/tel:07787744741"><a>(0778) 774 - 474 -1</a></Link></div>
+						<div className="info"><Link href="/tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link></div>
 						<div className="info"><Link href="/mailto:CleanovaPropertyServices@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link></div>
 						<div className="industify_fn_social_list">
 							<ul>

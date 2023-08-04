@@ -18,7 +18,7 @@ export default function DesktopHeader() {
                 <div className="industify_fn_toppanel">
                     <div className="left_panel">
                         <div className="info">
-                            <Link href="tel:07787744741"><a>(0778) 774 - 474 -1</a></Link>
+                            <Link href="tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link>
                         </div>
                         <div className="info">
                             <Link href="mailto:rendycoder.com@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link>
@@ -128,7 +128,7 @@ export default function DesktopHeader() {
                             <span className="shape3"></span>
                             <div className="tf_in">
                                 <div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
-                                <p><span>Toll Free:</span> <Link href="tel:07787744741"><a>(+64) +64220455048</a></Link></p>
+                                <p><span>Toll Free:</span> <Link href="tel:+64220455048"><a>(+64) +64220455048</a></Link></p>
                             </div>
                         </div>
 
