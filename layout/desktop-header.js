@@ -21,7 +21,7 @@ export default function DesktopHeader() {
                             <Link href="tel:07787744741"><a>(0778) 774 - 474 -1</a></Link>
                         </div>
                         <div className="info">
-                            <Link href="mailto:rendycoder.com@gmail.com"><a>trendycoder.com@gmail.com</a></Link>
+                            <Link href="mailto:rendycoder.com@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link>
                         </div>
                         <div className="industify_fn_social_list">
                             <ul>
@@ -128,7 +128,7 @@ export default function DesktopHeader() {
                             <span className="shape3"></span>
                             <div className="tf_in">
                                 <div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
-                                <p><span>Toll Free:</span> 1-800-987-6543</p>
+                                <p><span>Toll Free:</span> <Link href="tel:07787744741"><a>(+64) +64220455048</a></Link></p>
                             </div>
                         </div>
 
