@@ -9482,3 +9482,26 @@ blockquote{
 		padding-left: 30px;
 	}
 }
+
+.popright {
+  display: flex;
+  position: fixed;
+  top: 80vh;
+  right: 0;
+  gap: 25px;
+  background-color: #041230BB;
+  padding: 15px 20px;
+  border-radius: 20px 0 0 20px;
+  transition: transform .3s ease-in-out;
+  z-index: 1000;
+}
+
+.popright a {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.popright.hide {
+  transform: translateX(100%);
+}
