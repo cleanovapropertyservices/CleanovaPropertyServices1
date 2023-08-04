@@ -81,15 +81,39 @@ export default function DesktopHeader() {
                             <li className="menu-item-has-children">
                                 <Link href="/services"><a>Our Services</a></Link>
                                 <ul className="sub-menu">
-                                    <li><Link href="/service-single-9"><a>Aerospace and Defense</a></Link></li>
-                                    <li><Link href="/service-single-8"><a>Automative Manufacturing</a></Link></li>
-                                    <li><Link href="/service-single-7"><a>Chemical Industry</a></Link></li>
-                                    <li><Link href="/service-single-6"><a>Oil and Gas Industry</a></Link></li>
-                                    <li><Link href="/service-single-5"><a>Energy &#038; Commodities</a></Link></li>
-                                    <li><Link href="/service-single-4"><a>Medical Devices</a></Link></li>
-                                    <li><Link href="/service-single-3"><a>Housewares &#038; Home Decor</a></Link></li>
-                                    <li><Link href="/service-single-2"><a>Textiles &#038; Apparel</a></Link></li>
-                                    <li><Link href="/service-single-1"><a>Construction &#038; Engineering</a></Link></li>
+                                    <li>
+                                        <Link href="/service-single-9"><a>COMMERCIAL CLEANING</a></Link>
+                                        <ul>
+                                            <li><Link href="/office-cleaning">OFFICE CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">COMMON AREA CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">BUILDERS & CONSTRUCTION CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">SCHOOLS & EDUCATION PROVIDER CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">SUPERMARKET & RETAIL CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">PUBLIC FACILITY CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <Link href="/service-single-9"><a>RESIDENTIAL CLEANING</a></Link>
+                                        <ul>
+                                            <li><Link href="/office-cleaning">RENTAL PROPERTY CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">MOVE OUT CLEANING & END OF TENANCY CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">PRE TENANCY CLEANING & CHECKS</Link></li>
+                                            <li><Link href="/office-cleaning">PRE SALE CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">WALLS & CEILING CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">MOULD & MILDEW CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">DECK CLEANING, PATH CLEANING & HOUSE WASHING</Link></li>
+                                            <li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <Link href="/service-single-9"><a>SPECIALITY CLEANING</a></Link>
+                                        <ul>
+                                            <li><Link href="/office-cleaning">CARPET CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">UPHOLSTERY CLEANING</Link></li>
+                                            <li><Link href="/office-cleaning">SPRING CLEANING</Link></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                             {/*<li className="menu-item-has-children">
@@ -112,7 +136,7 @@ export default function DesktopHeader() {
                         </ul>
                     </div>
                     <div className="toll_free_lang">
-                        <div className="lang_switcher">
+                        {/*<div className="lang_switcher">
                             <span onClick={activeTrueFalse} className="click">{isSelect}</span>
                         </div>
                         <div className={isActive ? "industify_fn_moving_lang opened" : "industify_fn_moving_lang"} style={{ "position": "absolute", "left": "1281.16px", "top": "105.085px" }}>
@@ -121,7 +145,7 @@ export default function DesktopHeader() {
                                 <li onClick={() => setSelect("Spa")}><span>Spa</span></li>
                                 <li onClick={() => setSelect("Rus")}><span>Rus</span></li>
                             </ul>
-                        </div>
+                        </div>*/}
                         <div className="toll_free">
                             <span className="shape1"></span>
                             <span className="shape2"></span>
