@@ -53,13 +53,13 @@ export default function MobileHeader() {
 				</div>
 				{/* <!-- TOLL FREE MOBILE --> */}
 				<div className="m_toll_free_lang">
-					<div className="lang_switcher">
+					{/*<div className="lang_switcher">
 						<ul>
 							<li className="active"><span>Eng</span></li>
 							<li><Link href="#"><a><span>Spa</span></a></Link></li>
 							<li><Link href="#"><a><span>Rus</span></a></Link></li>
 						</ul>
-					</div>
+					</div>*/}
 					<div className="m_toll_free">
 						<span className="shape1"></span>
 						<span className="shape2"></span>
@@ -92,17 +92,17 @@ export default function MobileHeader() {
 							<ul className="metismenu" id="metismenu">
 								<li>
 									<Link href="#"><a className="has-arrow">Home</a></Link>
-									<ul>
+									{/*<ul>
 										<li><Link href="/"><a>Home Alpha</a></Link></li>
 										<li><Link href="/index-1"><a>Home Beta</a></Link></li>
 										<li><Link href="/index-2"><a>Home Gama</a></Link></li>
 										<li><Link href="/index-3"><a>Home Delta</a></Link></li>
-									</ul>
+									</ul>*/}
 								</li>
-								<li><Link href="/portfolio"><a>Projects</a></Link></li>
+								{/*<li><Link href="/portfolio"><a>Projects</a></Link></li>*/}
 								<li>
 									<Link href="#"><a className="has-arrow">Our Services</a></Link>
-									<ul>
+									{/*<ul>
 										<li><Link href="/service-single-9"><a>Aerospace and Defense</a></Link></li>
 										<li><Link href="/service-single-8"><a>Automative Manufacturing</a></Link></li>
 										<li><Link href="/service-single-7"><a>Chemical Industry</a></Link></li>
@@ -112,9 +112,9 @@ export default function MobileHeader() {
 										<li><Link href="/service-single-3"><a>Housewares &#038; Home Decor</a></Link></li>
 										<li><Link href="/service-single-2"><a>Textiles &#038; Apparel</a></Link></li>
 										<li><Link href="/service-single-1"><a>Construction &#038; Engineering</a></Link></li>
-									</ul>
+									</ul>*/}
 								</li>
-								<li>
+								{/*<li>
 									<Link href="#"><a className="has-arrow">Pages</a></Link>
 
 									<ul>
@@ -126,8 +126,8 @@ export default function MobileHeader() {
 										<li><Link href="/protected"><a>Protected Page</a></Link></li>
 									</ul>
 								</li>
-								<li><Link href="/blog"><a>Blog</a></Link></li>
-								<li><Link href="/contact"><a>Contact</a></Link></li>
+								<li><Link href="/blog"><a>Blog</a></Link></li>*/}
+								<li><Link href="/contact"><a>Book A services</a></Link></li>
 							</ul>
 						</nav>
 					</div>

@@ -66,18 +66,18 @@ export default function DesktopHeader() {
                     </div>
                     <div className="menu_nav">
                         <ul className="industify_fn_main_nav vert_nav">
-                            <li className="menu-item-has-children">
+                            <li>{/* className="menu-item-has-children" */}
                                 <Link href="/"><a>Home</a></Link>
-                                <ul className="sub-menu">
+                                {/*<ul className="sub-menu">
                                     <li><Link href="/"><a>Home Alpha</a></Link></li>
                                     <li><Link href="/index-1"><a>Home Beta</a></Link></li>
                                     <li><Link href="/index-2"><a>Home Gamma</a></Link></li>
                                     <li><Link href="/index-3"><a>Home Delta</a></Link></li>
-                                </ul>
+                                </ul>*/}
                             </li>
-                            <li>
+                            {/*<li>
                                 <Link href="/portfolio"><a>Projects</a></Link>
-                            </li>
+                            </li>*/}
                             <li className="menu-item-has-children">
                                 <Link href="/services"><a>Our Services</a></Link>
                                 <ul className="sub-menu">
@@ -92,7 +92,7 @@ export default function DesktopHeader() {
                                     <li><Link href="/service-single-1"><a>Construction &#038; Engineering</a></Link></li>
                                 </ul>
                             </li>
-                            <li className="menu-item-has-children">
+                            {/*<li className="menu-item-has-children">
                                 <Link href="#"><a>Pages</a></Link>
                                 <ul className="sub-menu">
                                     <li><Link href="/gallery"><a>Gallery</a></Link></li>
@@ -105,9 +105,9 @@ export default function DesktopHeader() {
                             </li>
                             <li>
                                 <Link href="/blog"><a>Blog</a></Link>
-                            </li>
+                            </li>*/}
                             <li>
-                                <Link href="/contact"><a>Contact</a></Link>
+                                <Link href="/contact"><a>Book A services</a></Link>
                             </li>
                         </ul>
                     </div>
