@@ -82,36 +82,50 @@ export default function DesktopHeader() {
                                 <Link href="#"><a>Our Services</a></Link>
                                 <ul className="sub-menu">
                                     <li>
-                                        <Link href="/commercial-cleaning"><a>COMMERCIAL CLEANING</a></Link>
+                                        <Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link>
                                         <ul>
-                                            <li><Link href="/commercial-cleaning#office-cleaning">OFFICE CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#common-area-cleaning">COMMON AREA CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#builders-construction-cleaning">BUILDERS & CONSTRUCTION CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#schools-education-provider-cleaning">SCHOOLS & EDUCATION PROVIDER CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#supermarket-retail-cleaning">SUPERMARKET & RETAIL CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#public-facility-cleaning">PUBLIC FACILITY CLEANING</Link></li>
-                                            <li><Link href="/commercial-cleaning#window-cleaning">WINDOW CLEANING</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#scrubbing-dusting-offices">Scrubbing and Dusting of Offices</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
+                                            <li><Link href="/business-workspace-sanitation#transparent-surface-sanitation">Transparent Surface (Window) Sanitation</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/residential-cleaning"><a>RESIDENTIAL CLEANING</a></Link>
+                                        <Link href="/residential-cleaning"><a>Home Cleaning Services</a></Link>
                                         <ul>
-                                            <li><Link href="/residential-cleaning#rental-property-cleaning">RENTAL PROPERTY CLEANING</Link></li>
-                                            <li><Link href="/residential-cleaning#move-out-cleaning-end-of-tenancy-cleaning">MOVE OUT CLEANING & END OF TENANCY CLEANING</Link></li>
-                                            <li><Link href="/residential-cleaning#pre-tenancy-cleaning-checks">PRE TENANCY CLEANING & CHECKS</Link></li>
-                                            <li><Link href="/residential-cleaning#pre-sale-cleaning">PRE SALE CLEANING</Link></li>
-                                            <li><Link href="/residential-cleaning#walls-ceiling-cleaning">WALLS & CEILING CLEANING</Link></li>
-                                            <li><Link href="/residential-cleaning#mould-mildew-cleaning">MOULD & MILDEW CLEANING</Link></li>
-                                            <li><Link href="/residential-cleaning#deck-cleaning-path-cleaning-house-washing">DECK CLEANING, PATH CLEANING & HOUSE WASHING</Link></li>
-                                            <li><Link href="/residential-cleaning#window-cleaning">WINDOW CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#rental-property-cleaning">Lease Property Sanitation</Link></li>
+                                            <li><Link href="/residential-cleaning#move-out-cleaning-end-of-tenancy-cleaning">Post-Occupancy Cleanup</Link></li>
+                                            <li><Link href="/residential-cleaning#pre-tenancy-cleaning-checks">Pre-Occupancy Scrub-down and Inspection</Link></li>
+                                            <li><Link href="/residential-cleaning#pre-sale-cleaning">Cleaning Services before Property Sale</Link></li>
+                                            <li><Link href="/residential-cleaning#walls-ceiling-cleaning">Detailed Cleaning of Kitchens, Bathrooms, and Ovens</Link></li>
+                                            <li><Link href="/residential-cleaning#mould-mildew-cleaning">Wall and Ceiling Sanitation</Link></li>
+                                            <li><Link href="/residential-cleaning#deck-cleaning-path-cleaning-house-washing">Mildew and Mould Remediation</Link></li>
+                                            <li><Link href="/residential-cleaning#window-cleaning">House, Deck, and Pathway Power Washing</Link></li>
+                                            <li><Link href="/residential-cleaning#window-cleaning">Transparent Surface (Window) Cleanup</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/speciality-cleaning"><a>SPECIALITY CLEANING</a></Link>
+                                        <Link href="/speciality-cleaning"><a>Specialized Cleaning Solutions</a></Link>
                                         <ul>
-                                            <li><Link href="/speciality-cleaning#carpet-cleaning">CARPET CLEANING</Link></li>
-                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">UPHOLSTERY CLEANING</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">SPRING CLEANING</Link></li>
+                                            <li><Link href="/speciality-cleaning#carpet-cleaning">Rug and Carpet Deep Clean</Link></li>
+                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">Furniture Upholstery Freshening</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Comprehensive Springtime Cleaning</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">In-Depth Sanitization and Sterilization</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Thorough Bathroom Scrub-down</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Floor Maintenance and Care</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Maintenance Assistance for Facilities</Link></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <Link href="/speciality-cleaning"><a>Additional Cleaning Services</a></Link>
+                                        <ul>
+                                            <li><Link href="/speciality-cleaning#carpet-cleaning">Vehicle Interior Cleaning</Link></li>
+                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">Grout and Tile Deep Clean</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Garage Cleanup and Organisation</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">Pest Dropping Cleanup and Sanitization</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

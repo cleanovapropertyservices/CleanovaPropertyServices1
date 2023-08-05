@@ -166,7 +166,7 @@ export default function Index() {
 													<div className="b_title">
 														<h3>World&apos;s Leading Industry<br />Corporation</h3>
 													</div>
-													<div className="b_desc"><span className="year">47</span><span className="text">Years of Experience</span></div>
+													<div className="b_desc"><span className="year">10</span><span className="text">Years of Experience</span></div>
 												</div>
 												<div className="badge_right" style={{ "backgroundImage": `url(${rightImage})` }}></div>
 											</div>
@@ -245,7 +245,7 @@ export default function Index() {
 								<p>We are focused on sustainable business that delivers the best possible project results.</p>
 							</div>
 							<div className="link_holder">
-								<Link href="/contact"><a>Our Responsibility</a></Link>
+								<Link href="/contact"><a>Book A Services</a></Link>
 							</div>
 						</div>
 					</div>

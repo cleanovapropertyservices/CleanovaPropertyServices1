@@ -15,12 +15,12 @@ export default function Services() {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Commercial Cleaning</h3>
+							<h3>Business and Workspace Sanitation</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><span className="bread-current"> Commercial Cleaning</span></li>
+									<li><span className="bread-current"> Business and Workspace Sanitation</span></li>
 								</ul>
 							</div>
 						</div>
