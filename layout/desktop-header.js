@@ -107,25 +107,25 @@ export default function DesktopHeader() {
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/speciality-cleaning"><a>Specialized Cleaning Solutions</a></Link>
+                                        <Link href="/specialized-cleaning-solutions"><a>Specialized Cleaning Solutions</a></Link>
                                         <ul>
-                                            <li><Link href="/speciality-cleaning#carpet-cleaning">Rug and Carpet Deep Clean</Link></li>
-                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">Furniture Upholstery Freshening</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Comprehensive Springtime Cleaning</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">In-Depth Sanitization and Sterilization</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Thorough Bathroom Scrub-down</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Floor Maintenance and Care</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Maintenance Assistance for Facilities</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#rug-carpet-deep-clean">Rug and Carpet Deep Clean</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#furniture-upholstery-freshening">Furniture Upholstery Freshening</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#comprehensive-springtime-cleaning">Comprehensive Springtime Cleaning</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#in-depth-sanitization-sterilization">In-Depth Sanitization and Sterilization</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#thorough-bathroom-scrub-down">Thorough Bathroom Scrub-down</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#floor-maintenance-care">Floor Maintenance and Care</Link></li>
+                                            <li><Link scroll={false} href="/specialized-cleaning-solutions#maintenance-assistance-facilities">Maintenance Assistance for Facilities</Link></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <Link href="/speciality-cleaning"><a>Additional Cleaning Services</a></Link>
                                         <ul>
-                                            <li><Link href="/speciality-cleaning#carpet-cleaning">Vehicle Interior Cleaning</Link></li>
-                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">Grout and Tile Deep Clean</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Garage Cleanup and Organisation</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
-                                            <li><Link href="/speciality-cleaning#spring-cleaning">Pest Dropping Cleanup and Sanitization</Link></li>
+                                            <li><Link scroll={false} href="/additional-cleaning-services#vehicle-interior-cleaning">Vehicle Interior Cleaning</Link></li>
+                                            <li><Link scroll={false} href="/additional-cleaning-services#grout-tile-deep-clean">Grout and Tile Deep Clean</Link></li>
+                                            <li><Link scroll={false} href="/additional-cleaning-services#garage-cleanup-organisation">Garage Cleanup and Organisation</Link></li>
+                                            <li><Link scroll={false} href="/additional-cleaning-services#garden-shed-outdoor-furniture-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
+                                            <li><Link scroll={false} href="/additional-cleaning-services#pest-dropping-cleanup-sanitization">Pest Dropping Cleanup and Sanitization</Link></li>
                                         </ul>
                                     </li>
                                 </ul>
