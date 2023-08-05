@@ -84,26 +84,26 @@ export default function DesktopHeader() {
                                     <li>
                                         <Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link>
                                         <ul>
-                                            <li><Link href="/business-workspace-sanitation#scrubbing-dusting-offices">Scrubbing and Dusting of Offices</Link></li>
-                                            <li><Link href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
-                                            <li><Link href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
-                                            <li><Link href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
-                                            <li><Link href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
-                                            <li><Link href="/business-workspace-sanitation#transparent-surface-sanitation">Transparent Surface (Window) Sanitation</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#scrubbing-dusting-offices">Scrubbing and Dusting of Offices</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#transparent-surface-sanitation">Transparent Surface (Window) Sanitation</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/residential-cleaning"><a>Home Cleaning Services</a></Link>
+                                        <Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link>
                                         <ul>
-                                            <li><Link href="/residential-cleaning#rental-property-cleaning">Lease Property Sanitation</Link></li>
-                                            <li><Link href="/residential-cleaning#move-out-cleaning-end-of-tenancy-cleaning">Post-Occupancy Cleanup</Link></li>
-                                            <li><Link href="/residential-cleaning#pre-tenancy-cleaning-checks">Pre-Occupancy Scrub-down and Inspection</Link></li>
-                                            <li><Link href="/residential-cleaning#pre-sale-cleaning">Cleaning Services before Property Sale</Link></li>
-                                            <li><Link href="/residential-cleaning#walls-ceiling-cleaning">Detailed Cleaning of Kitchens, Bathrooms, and Ovens</Link></li>
-                                            <li><Link href="/residential-cleaning#mould-mildew-cleaning">Wall and Ceiling Sanitation</Link></li>
-                                            <li><Link href="/residential-cleaning#deck-cleaning-path-cleaning-house-washing">Mildew and Mould Remediation</Link></li>
-                                            <li><Link href="/residential-cleaning#window-cleaning">House, Deck, and Pathway Power Washing</Link></li>
-                                            <li><Link href="/residential-cleaning#window-cleaning">Transparent Surface (Window) Cleanup</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#lease-property-sanitation">Lease Property Sanitation</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#post-occupancy-cleanup">Post-Occupancy Cleanup</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#pre-occupancy-scrub-down-inspection">Pre-Occupancy Scrub-down and Inspection</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#cleaning-services-before-property-sale">Cleaning Services before Property Sale</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#detailed-cleaning-kitchens-bathrooms-ovens">Detailed Cleaning of Kitchens, Bathrooms, and Ovens</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#wall-ceiling-sanitation">Wall and Ceiling Sanitation</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#mildew-mould-remediation">Mildew and Mould Remediation</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#house-deck-pathway-power-washing">House, Deck, and Pathway Power Washing</Link></li>
+                                            <li><Link scroll={false} href="/home-cleaning-services#transparent-surface-cleanup">Transparent Surface (Window) Cleanup</Link></li>
                                         </ul>
                                     </li>
                                     <li>
