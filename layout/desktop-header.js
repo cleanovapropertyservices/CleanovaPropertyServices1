@@ -79,39 +79,39 @@ export default function DesktopHeader() {
                                 <Link href="/portfolio"><a>Projects</a></Link>
                             </li>*/}
                             <li className="menu-item-has-children">
-                                <Link href="/services"><a>Our Services</a></Link>
+                                <Link href="#"><a>Our Services</a></Link>
                                 <ul className="sub-menu">
                                     <li>
-                                        <Link href="/service-single-9"><a>COMMERCIAL CLEANING</a></Link>
+                                        <Link href="/commercial-cleaning"><a>COMMERCIAL CLEANING</a></Link>
                                         <ul>
-                                            <li><Link href="/office-cleaning">OFFICE CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">COMMON AREA CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">BUILDERS & CONSTRUCTION CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">SCHOOLS & EDUCATION PROVIDER CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">SUPERMARKET & RETAIL CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">PUBLIC FACILITY CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#office-cleaning">OFFICE CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#common-area-cleaning">COMMON AREA CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#builders-construction-cleaning">BUILDERS & CONSTRUCTION CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#schools-education-provider-cleaning">SCHOOLS & EDUCATION PROVIDER CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#supermarket-retail-cleaning">SUPERMARKET & RETAIL CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#public-facility-cleaning">PUBLIC FACILITY CLEANING</Link></li>
+                                            <li><Link href="/commercial-cleaning#window-cleaning">WINDOW CLEANING</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/service-single-9"><a>RESIDENTIAL CLEANING</a></Link>
+                                        <Link href="/residential-cleaning"><a>RESIDENTIAL CLEANING</a></Link>
                                         <ul>
-                                            <li><Link href="/office-cleaning">RENTAL PROPERTY CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">MOVE OUT CLEANING & END OF TENANCY CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">PRE TENANCY CLEANING & CHECKS</Link></li>
-                                            <li><Link href="/office-cleaning">PRE SALE CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">WALLS & CEILING CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">MOULD & MILDEW CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">DECK CLEANING, PATH CLEANING & HOUSE WASHING</Link></li>
-                                            <li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#rental-property-cleaning">RENTAL PROPERTY CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#move-out-cleaning-end-of-tenancy-cleaning">MOVE OUT CLEANING & END OF TENANCY CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#pre-tenancy-cleaning-checks">PRE TENANCY CLEANING & CHECKS</Link></li>
+                                            <li><Link href="/residential-cleaning#pre-sale-cleaning">PRE SALE CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#walls-ceiling-cleaning">WALLS & CEILING CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#mould-mildew-cleaning">MOULD & MILDEW CLEANING</Link></li>
+                                            <li><Link href="/residential-cleaning#deck-cleaning-path-cleaning-house-washing">DECK CLEANING, PATH CLEANING & HOUSE WASHING</Link></li>
+                                            <li><Link href="/residential-cleaning#window-cleaning">WINDOW CLEANING</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/service-single-9"><a>SPECIALITY CLEANING</a></Link>
+                                        <Link href="/speciality-cleaning"><a>SPECIALITY CLEANING</a></Link>
                                         <ul>
-                                            <li><Link href="/office-cleaning">CARPET CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">UPHOLSTERY CLEANING</Link></li>
-                                            <li><Link href="/office-cleaning">SPRING CLEANING</Link></li>
+                                            <li><Link href="/speciality-cleaning#carpet-cleaning">CARPET CLEANING</Link></li>
+                                            <li><Link href="/speciality-cleaning#upholstery-cleaning">UPHOLSTERY CLEANING</Link></li>
+                                            <li><Link href="/speciality-cleaning#spring-cleaning">SPRING CLEANING</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

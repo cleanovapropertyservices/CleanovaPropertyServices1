@@ -68,3 +68,6 @@
    -webkit-transform: rotate(315deg) translate(0, -50%) !important;
 }
 
+.mm-collapse > li > ul {
+	transform: translateX(20px);
+}
