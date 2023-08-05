@@ -758,4 +758,54 @@ function Youtube({ className }) {
 
 }
 
-export { Badoo, BaiduLogo, BigSkypeLogo, Facebook, FourSquare, GooglePlus, Instagram, Line, Linkedin, NightClub, Qq, QzoneLogo, Reddit, Renren, SinaWeibo, SnapChat, Tagged, Telegram1, Telegram, TikTok, Tumblr, Twitter, Viver, Vk, Wechat, Youtube }
+function Whatsapp(props) {
+    return (
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x={0}
+        y={0}
+        viewBox="0 0 100 100"
+        xmlSpace="preserve"
+        {...props}
+        >
+        <linearGradient
+            id="a"
+            x1={50.723}
+            x2={50.723}
+            y1={627.233}
+            y2={625.746}
+            gradientTransform="matrix(60 0 0 -60 -2993 37639)"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop offset={0} stopColor="#62FA7F" />
+            <stop offset={0.686} stopColor="#22CC40" />
+            <stop offset={1} stopColor="#05B723" />
+        </linearGradient>
+        <path
+            fill="url(#a)"
+            d="M28.4 5H26c-2 .1-4.6.2-5.7.5-1.8.4-3.5.9-4.9 1.6-1.6.8-3.1 1.9-4.4 3.2-1.3 1.3-2.3 2.7-3.2 4.4-.7 1.4-1.3 3.1-1.6 4.8-.2 1.2-.4 3.8-.5 5.8V74c.1 2 .2 4.6.5 5.7.4 1.8.9 3.5 1.6 4.9.8 1.6 1.9 3.1 3.2 4.4 1.3 1.3 2.7 2.3 4.4 3.2 1.4.7 3.1 1.3 4.8 1.6 1.2.2 3.8.4 5.8.5h48.7c2-.1 4.6-.2 5.7-.5 1.8-.4 3.5-.9 4.9-1.6 1.6-.8 3.1-1.9 4.4-3.2 1.3-1.3 2.3-2.7 3.2-4.4.7-1.4 1.3-3.1 1.6-4.8.2-1.2.4-3.8.5-5.8V25.3c-.1-2-.2-4.6-.5-5.7-.4-1.8-.9-3.5-1.6-4.9-.8-1.6-1.9-3.1-3.2-4.4C88.4 9 87 8 85.3 7.1c-1.4-.7-3.1-1.3-4.8-1.6-1.2-.2-3.8-.4-5.8-.5H28.4z"
+        />
+        <path
+            fill="#fff"
+            d="M66.6 54.4c-.8-.4-4.8-2.3-5.5-2.6-.7-.3-1.3-.4-1.8.4s-2.1 2.6-2.5 3.1c-.5.5-.9.6-1.7.2-.8-.4-3.4-1.2-6.5-3.9-2.4-2.1-4-4.7-4.5-5.5-.5-.8 0-1.2.4-1.6.4-.4.8-.9 1.2-1.4.4-.5.5-.8.8-1.3.3-.5.1-1-.1-1.4-.2-.4-1.8-4.3-2.5-5.9-.7-1.5-1.3-1.3-1.8-1.4h-1.5c-.5 0-1.4.2-2.1 1-.7.8-2.8 2.7-2.8 6.6 0 3.9 2.9 7.6 3.3 8.2.4.5 5.7 8.5 13.7 11.9 1.9.8 3.4 1.3 4.6 1.7 1.9.6 3.7.5 5.1.3 1.5-.2 4.8-1.9 5.4-3.7.7-1.8.7-3.4.5-3.7-.4-.4-.9-.6-1.7-1M51.3 75c-4.8 0-9.4-1.3-13.5-3.7l-1-.6-10 2.6 2.7-9.7-.6-1c-2.6-4.2-4-9-4-14 0-14.5 11.9-26.3 26.5-26.3C58.3 22.3 65 25 70 30c5 5 7.7 11.6 7.7 18.6C77.7 63.1 65.8 75 51.3 75m22.5-48.8c-6-6-14-9.3-22.5-9.3-17.5 0-31.8 14.2-31.8 31.7 0 5.6 1.5 11 4.2 15.8l-4.5 16.4L36 76.4c4.6 2.5 9.9 3.9 15.2 3.9C68.7 80.3 83 66.1 83 48.6c.1-8.4-3.2-16.4-9.2-22.4"
+        />
+        </svg>
+      )
+}
+
+function Messanger(props) {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" {...props}>
+          <path
+            fill="#1E88E5"
+            d="M8 0C3.582 0 0 3.316 0 7.407c0 2.331 1.163 4.41 2.981 5.768V16l2.724-1.495c.727.201 1.497.31 2.295.31 4.418 0 8-3.316 8-7.407C16 3.316 12.418 0 8 0z"
+          />
+          <path
+            fill="#FAFAFA"
+            d="M8.795 9.975L6.758 7.802 2.783 9.975l4.372-4.642 2.087 2.173 3.926-2.173z"
+          />
+        </svg>
+      )
+}
+
+export { Whatsapp, Messanger, Badoo, BaiduLogo, BigSkypeLogo, Facebook, FourSquare, GooglePlus, Instagram, Line, Linkedin, NightClub, Qq, QzoneLogo, Reddit, Renren, SinaWeibo, SnapChat, Tagged, Telegram1, Telegram, TikTok, Tumblr, Twitter, Viver, Vk, Wechat, Youtube }
