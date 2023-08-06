@@ -28,7 +28,7 @@ export default function Index() {
 
 				<Slider />
 				{/* <!-- Principles Modern --> */}
-				<div className="fn_cs_principles_modern">
+				{/*<div className="fn_cs_principles_modern">
 					<div className="container">
 						<div className="inner">
 							<div className="shape"><span className="shape1"></span><span className="shape2"></span></div>
@@ -75,7 +75,7 @@ export default function Index() {
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div>*/}
 				{/* <!-- /Principles Modern --> */}
 
 
