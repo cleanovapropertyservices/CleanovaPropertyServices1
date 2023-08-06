@@ -42,7 +42,7 @@ export default function Services() {
 										<div className="item" id="rug-carpet-deep-clean">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/carpet-cleaning.jpg)" }}></div>
 												</div>
 												<div className="title">
 													<h3><Link href=""><a>Rug and Carpet Deep Clean</a></Link></h3>
@@ -94,7 +94,7 @@ export default function Services() {
 										<div className="item" id="thorough-bathroom-scrub-down">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s10.jpg)" }}></div>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-7"><a>Thorough Bathroom Scrub-down</a></Link></h3>

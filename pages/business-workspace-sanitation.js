@@ -42,12 +42,12 @@ export default function Services() {
 										<div className="item" id="scrubbing-dusting-offices">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s1.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Scrubbing and Dusting of Offices</a></Link></h3>
-													<p>For a professional environment to function at its peak, cleanliness is key. Our office cleaning services ensure that your workspaces remain pristine and conducive for productivity. Our experienced team provides tailored solutions that cater to the unique needs of your office, covering all aspects from dusting workstations to sanitizing communal areas.</p>
+													<p>Maintain a professional and productive workspace with our comprehensive office cleaning solutions. We meticulously scrub and dust every nook and corner, ensuring a pristine environment that boosts employee morale and leaves a lasting impression on visitors.</p>
 												</div>
 											</div>
 										</div>
@@ -56,12 +56,12 @@ export default function Services() {
 										<div className="item" id="sanitation-shared-spaces">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/8.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s2.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Sanitation of Shared Spaces</a></Link></h3>
-													<p>Common areas can quickly accumulate dirt and grime due to high footfall. Our common area cleaning services maintain cleanliness and hygiene in these high-traffic spaces, like hallways, lobbies, and shared restrooms. We utilize advanced cleaning techniques to ensure a fresh and inviting atmosphere for everyone.</p>
+													<p>High-traffic shared spaces can become a breeding ground for germs and bacteria. We specialize in the sanitation of these areas, employing advanced cleaning methods to eliminate pathogens and ensure a hygienic environment for all users.</p>
 												</div>
 											</div>
 										</div>
@@ -70,12 +70,12 @@ export default function Services() {
 										<div className="item" id="post-construction-cleanup">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s3.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Post-Construction Cleanup</a></Link></h3>
-													<p>Dealing with post-construction debris? Our builders and construction cleaning services handle the heavy lifting so you don't have to. We remove construction waste, dust, and other debris, preparing your new or renovated space for immediate use. Safety, efficiency, and thoroughness are our top priorities.</p>
+													<p>Transition seamlessly from construction to occupancy with our post-construction cleanup services. We swiftly remove debris, dust, and residues, presenting you with a spotless space that’s ready for its new purpose.</p>
 												</div>
 											</div>
 										</div>
@@ -84,12 +84,12 @@ export default function Services() {
 										<div className="item" id="cleaning-services-educational-institutions">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/6.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s4.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Cleaning Services for Educational Institutions</a></Link></h3>
-													<p>In educational institutions, cleanliness directly impacts the health and performance of students and staff. Our school cleaning services maintain a sanitary, safe, and inviting learning environment. We pay special attention to high-touch areas, ensuring all surfaces are disinfected and cleaned to the highest standards.</p>
+													<p>Institutions of learning deserve a clean slate every day. We provide specialized cleaning services for educational facilities, ensuring a safe and healthy environment where students and staff can thrive.</p>
 												</div>
 											</div>
 										</div>
@@ -98,12 +98,12 @@ export default function Services() {
 										<div className="item" id="public-area-maintenance-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/5.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s5.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Public Area Maintenance and Sanitation</a></Link></h3>
-													<p>A clean store attracts more customers and boosts your brand's image. Our supermarket and retail cleaning services ensure that your store always looks its best. From gleaming floors to dust-free shelves, we provide comprehensive cleaning solutions that cater to the unique requirements of the retail environment.</p>
+													<p>Shopping experiences are elevated in clean environments. Our cleaning solutions for malls and stores ensure shiny floors, dust-free surfaces, and a pleasant ambiance that invites and retains customers.</p>
 												</div>
 											</div>
 										</div>
@@ -112,12 +112,12 @@ export default function Services() {
 										<div className="item" id="transparent-surface-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/4.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s6.jpg)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Transparent Surface (Window) Sanitation</a></Link></h3>
-													<p>Public facilities are subject to heavy use and require meticulous cleaning for health and safety. Our public facility cleaning services are designed to tackle these challenges. We use the best practices and industry-grade equipment to clean and sanitize public areas, providing a clean, safe, and comfortable environment for all users.</p>
+													<p>Let the light shine through spotless windows. Our transparent surface sanitation services guarantee streak-free and germ-free windows that not only elevate aesthetics but also promise a safer touch point for users.</p>
 												</div>
 											</div>
 										</div>

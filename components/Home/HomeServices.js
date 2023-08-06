@@ -18,45 +18,31 @@ const service6 = "/img/service/single/6.jpg"
 
 const services = [
     {
-        link:"/service-single-1",
+        link:"/business-workspace-sanitation",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/1.jpg",
-        title:"Construction Engineering"
+        bg: "img/service/single/s1.jpg",
+        title:"Business and Workspace Sanitation"
 
     },
     {
-        link:"/service-single-2",
+        link:"/home-cleaning-services",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/2.jpg",
-        title:"Textiles &amp; Apparel"
+        bg: "/img/service/single/s9.jpg",
+        title:"Home Cleaning Services"
 
     },
     {
-        link:"/service-single-3",
+        link:"/specialized-cleaning-solutions",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/3.jpg",
-        title:"Housewares  Home Decor"
+        bg: "/img/service/single/s10.jpg",
+        title:"Specialized Cleaning Solutions"
 
     },
     {
-        link:"/service-single-4",
+        link:"/additional-cleaning-services",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/4.jpg",
-        title:"Medical Devices"
-
-    },
-    {
-        link:"/service-single-5",
-        img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/5.jpg",
-        title:"Energy Commodities"
-
-    },
-    {
-        link:"/service-single-6",
-        img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/6.jpg",
-        title:"Oil and Gas Industry"
+        bg: "/img/service/single/s11.jpg",
+        title:"Additional Cleaning Services"
 
     },
 ]

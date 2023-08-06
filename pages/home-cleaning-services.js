@@ -42,12 +42,12 @@ export default function Services() {
 										<div className="item" id="lease-property-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s7.jpg)" }}></div>
 													<Link href="/service-single-9"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-9"><a>Lease Property Sanitation</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<p>When leasing a property, ensuring its cleanliness is paramount. We offer meticulous sanitation services to enhance the appeal of leased properties and ensure they are in top condition for tenants.</p>
 												</div>
 											</div>
 										</div>
@@ -61,7 +61,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-8"><a>Post-Occupancy Cleanup</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<p>After tenants vacate, a thorough cleanup ensures the property is ready for its next occupants. Our post-occupancy cleanup rejuvenates spaces, making them feel as good as new.</p>
 												</div>
 											</div>
 										</div>
@@ -70,12 +70,12 @@ export default function Services() {
 										<div className="item" id="pre-occupancy-scrub-down-inspection">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s8.jpg)" }}></div>
 													<Link href="/service-single-7"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-7"><a>Pre-Occupancy Scrub-down and Inspection</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<p>Before moving in, ensure your property is hygienic and spotless. We provide an intensive scrub-down and inspection service, ensuring every room and corner is in impeccable condition for new occupants.</p>
 												</div>
 											</div>
 										</div>
@@ -84,12 +84,12 @@ export default function Services() {
 										<div className="item" id="cleaning-services-before-property-sale">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/6.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/residential-cleaning.jpg)" }}></div>
 													<Link href="/service-single-6"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-6"><a>Cleaning Services before Property Sale</a></Link></h3>
-													<p>The Shale Oil and Gas Revolution has changed the energy world. Industify has kept pace by providing crucial and timely exploration, production, quality, quantity inventory,</p>
+													<p>First impressions matter when selling a property. Our cleaning services ensure that potential buyers are met with a gleaming, well-maintained space, significantly boosting its market appeal.</p>
 												</div>
 											</div>
 										</div>
@@ -98,12 +98,12 @@ export default function Services() {
 										<div className="item" id="detailed-cleaning-kitchens-bathrooms-ovens">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/5.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s9.jpg)" }}></div>
 													<Link href="/service-single-5"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-5"><a>Detailed Cleaning of Kitchens, Bathrooms, and Ovens</a></Link></h3>
-													<p>Today’s energy and commodities industries power and feed the world economy. The efficient and effective operation of these projects is vital to sustained energy growth</p>
+													<p>High-use areas like kitchens and bathrooms demand special attention. Our detailed cleaning targets grime, build-up, and spots in these areas, including deep-cleaning of ovens, ensuring they shine and function like brand new.</p>
 												</div>
 											</div>
 										</div>
@@ -112,12 +112,12 @@ export default function Services() {
 										<div className="item" id="wall-ceiling-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/4.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/commercial-cleaning.jpg)" }}></div>
 													<Link href="/service-single-4"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-4"><a>Wall and Ceiling Sanitation</a></Link></h3>
-													<p>Get your medical device tested and into the hands of your customers faster than ever before. Time to market starts with partnership, and for more</p>
+													<p>Over time, walls and ceilings collect dust, stains, and cobwebs. Our sanitation services revitalize these large surfaces, enhancing the overall cleanliness and air quality of the property.</p>
 												</div>
 											</div>
 										</div>
@@ -131,7 +131,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-4"><a>Mildew and Mould Remediation</a></Link></h3>
-													<p>Get your medical device tested and into the hands of your customers faster than ever before. Time to market starts with partnership, and for more</p>
+													<p>Mould and mildew can pose significant health risks. We specialize in their remediation, employing advanced techniques to thoroughly remove and prevent their return, ensuring a safer living environment.</p>
 												</div>
 											</div>
 										</div>
@@ -145,7 +145,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-4"><a>House, Deck, and Pathway Power Washing</a></Link></h3>
-													<p>Get your medical device tested and into the hands of your customers faster than ever before. Time to market starts with partnership, and for more</p>
+													<p>Exterior surfaces often bear the brunt of natural elements. Our power washing services strip away dirt, algae, and stains from houses, decks, and pathways, restoring their original beauty and prolonging their lifespan.</p>
 												</div>
 											</div>
 										</div>
@@ -154,12 +154,12 @@ export default function Services() {
 										<div className="item" id="transparent-surface-cleanup">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/4.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s6.jpg)" }}></div>
 													<Link href="/service-single-4"><a></a></Link>
 												</div>
 												<div className="title">
 													<h3><Link href="/service-single-4"><a>Transparent Surface (Window) Cleanup</a></Link></h3>
-													<p>Get your medical device tested and into the hands of your customers faster than ever before. Time to market starts with partnership, and for more</p>
+													<p>Clear windows elevate a property's aesthetic. We offer window cleanup services that remove dirt, streaks, and residues, ensuring sparkling clarity that enhances natural light and views.</p>
 												</div>
 											</div>
 										</div>

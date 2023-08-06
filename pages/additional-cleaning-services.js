@@ -42,7 +42,7 @@ export default function Services() {
 										<div className="item" id="vehicle-interior-cleaning">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s11.jpg)" }}></div>
 												</div>
 												<div className="title">
 													<h3><Link href=""><a>Vehicle Interior Cleaning</a></Link></h3>
