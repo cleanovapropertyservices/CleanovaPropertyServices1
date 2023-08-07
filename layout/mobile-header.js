@@ -65,7 +65,7 @@ export default function MobileHeader() {
 						<span className="shape2"></span>
 						<span className="shape3"></span>
 						<div className="tf_in">
-							<div className="img_holder" style={{ "backgroundImage": "url(img/call.png)" }}></div>
+							<div className="img_holder" style={{ "backgroundImage": "url(img/supportContact.png)" }}></div>
 							<p><span>Call Now:</span> 0220455048</p>
 						</div>
 					</div>
