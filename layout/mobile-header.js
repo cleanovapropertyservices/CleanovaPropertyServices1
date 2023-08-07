@@ -51,7 +51,7 @@ export default function MobileHeader() {
 						</div>
 					</div>
 				</div>
-				{/* <!-- TOLL FREE MOBILE --> */}
+				{/* <!-- Call Now MOBILE --> */}
 				<div className="m_toll_free_lang">
 					{/*<div className="lang_switcher">
 						<ul>
@@ -65,12 +65,12 @@ export default function MobileHeader() {
 						<span className="shape2"></span>
 						<span className="shape3"></span>
 						<div className="tf_in">
-							<div className="img_holder" style={{ "backgroundImage": "url(img/call.png)" }}></div>
-							<p><span>Toll Free:</span> 1-800-987-6543</p>
+							<div className="img_holder" style={{ "backgroundImage": "url(img/supportContact.png)" }}></div>
+							<p><span>Call Now:</span> 0220455048</p>
 						</div>
 					</div>
 				</div>
-				{/* <!-- /TOLL FREE MOBILE --> */}
+				{/* <!-- /Call Now MOBILE --> */}
 				{/* <!-- LOGO & HAMBURGER --> */}
 				<div className="logo_hamb">
 					<div className="in">
