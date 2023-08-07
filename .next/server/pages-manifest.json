@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js",
+  "/home-cleaning-services": "pages/home-cleaning-services.js",
   "/": "pages/index.js",
-  "/services": "pages/services.js",
-  "/business-workspace-sanitation": "pages/business-workspace-sanitation.js"
+  "/contact": "pages/contact.js"
 }

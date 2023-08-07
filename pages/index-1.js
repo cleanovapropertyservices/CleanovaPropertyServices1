@@ -389,13 +389,13 @@ export default function Index1() {
                     <div className="bottom_section">
                       <div className="link_block"><Link href="https://industify.frenify.net/1/contact/"><a>Request an Estimate</a></Link></div>
                       <div className="tfree_block">
-                        <p>Toll Free: 1-800-987-6543 </p>
+                        <p>Call Now: 0220455048</p>
                       </div>
                     </div>
                   </div>
                   <div className="img_wrap">
                     <span></span>
-                    <img src="/img/about/support.png" alt="" />
+                    <img src="/img/about/supportContact.png" alt="support" />
                   </div>
                 </div>
               </div>
