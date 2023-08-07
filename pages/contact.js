@@ -4,22 +4,39 @@ import Title from '../layout/title'
 import { Location } from '../public/svg/icon'
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 export default function Contact() {
 	const form = useRef();
 	const [check, setCheck] = useState([false, false]);
+	const [messageSubmit, setMessageSubmit] = useState("");
+
+	const isValidEmail = (value) => { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) }
+	const isValidPhone = (value) => { return /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/.test(value) }
 
   const sendEmail = (e) => {
     e.preventDefault();
+		setMessageSubmit("")
 
-		console.log(form.current)
+		if (form.current.from_email.value === "" || form.current.from_phone.value === "" || form.current.message.value === "") {
+			setMessageSubmit("Please complete all fields.")
+		}
+
+		if (!isValidEmail(form.current.from_email.value)) {
+			setMessageSubmit("Please enter a valid email address.")
+		}
     emailjs.sendForm('service_vunh9gg', 'template_5xug8jx', form.current, 'MY2YBVfnXvBRVei6P')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+		.then((result) => {
+				setMessageSubmit("Your message has been received, we will contact you soon.");
+				form.current.from_name.value = ""
+				form.current.from_email.value = ""
+				form.current.from_phone.value = ""
+				form.current.message.value = ""
+				setCheck([false, false])
+		}, (error) => {
+				setMessageSubmit("* error");
+		});
   };
 
 	return (
@@ -62,7 +79,7 @@ export default function Contact() {
 										{/* Don't remove below code in avoid to work contact form properly.
 									You can chance dat-success value with your one. It will be used when user will try to contact via contact form and will get success message. */}
 
-										<div className="success" data-success="Your message has been received, we will contact you soon."></div>
+										<div className="success" data-success="Your message has been received, we will contact you soon.">{ messageSubmit }</div>
 										<div className="empty_notice"><span>Please Fill Required Fields</span></div>
 										{/*  */}
 										<div className="items">
@@ -80,16 +97,20 @@ export default function Contact() {
 												<span>Preferred way of contact :</span>
 												<div className='checkboxs-group'>
 												<div className='checkbox'>
-														<input type='checkbox' id='emailCheck' value={check[0]} onChange={() => {setCheck([!check[0], check[1]])}}/> <label htmlFor='emailCheck'>Email</label>
+														<input type='checkbox' id='emailCheck' checked={check[0]} onChange={() => {setCheck([!check[0], check[1]])}}/> <label htmlFor='emailCheck'>Email</label>
 													</div>
 													<div className='checkbox'>
-														<input type='checkbox' id='phoneCheck' value={check[1]} onChange={() => {setCheck([check[0], !check[1]])}}/> <label htmlFor='phoneCheck'>Phone</label>
+														<input type='checkbox' id='phoneCheck' checked={check[1]} onChange={() => {setCheck([check[0], !check[1]])}}/> <label htmlFor='phoneCheck'>Phone</label>
 													</div>
 												</div>
 											</div>
 											<div className="item">
 												<textarea id="message" placeholder="Message" name='message'></textarea>
 											</div>
+											<ReCAPTCHA 
+												sitekey={"6LdFcYonAAAAAO9kmkFjB21VJL3Y6enbcj_O_vO0"}
+												onChange={() => {console.log('ok')}}
+											/>
 											<div className="item">
 												<a id="send_message" onClick={sendEmail}>Send Message</a>
 											</div>
