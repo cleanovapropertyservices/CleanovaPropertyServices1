@@ -5,7 +5,7 @@ import { Location } from '../public/svg/icon'
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
-
+import Swal from "sweetalert2";
 
 export default function Contact() {
 	const form = useRef();
@@ -28,7 +28,12 @@ export default function Contact() {
 		}
     emailjs.sendForm('service_vunh9gg', 'template_5xug8jx', form.current, 'MY2YBVfnXvBRVei6P')
 		.then((result) => {
-				setMessageSubmit("Your message has been received, we will contact you soon.");
+				Swal.fire({
+					title: "<h3 style='color:#0e0e0e'>" + "Sweet!" + "</h3>",
+					icon: "success",
+					text: "Your message has been received, we will contact you soon.",
+				});
+
 				form.current.from_name.value = ""
 				form.current.from_email.value = ""
 				form.current.from_phone.value = ""
