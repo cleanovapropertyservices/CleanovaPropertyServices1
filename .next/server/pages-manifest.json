@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/contact": "pages/contact.js",
+  "/business-workspace-sanitation": "pages/business-workspace-sanitation.js",
+  "/services": "pages/services.js",
+  "/": "pages/index.js"
+}
