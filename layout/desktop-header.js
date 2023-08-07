@@ -145,7 +145,7 @@ export default function DesktopHeader() {
                                 <Link href="/blog"><a>Blog</a></Link>
                             </li>*/}
                             <li>
-                                <Link href="/contact"><a>Book A services</a></Link>
+                                <Link href="/contact"><a>Book A service</a></Link>
                             </li>
                         </ul>
                     </div>

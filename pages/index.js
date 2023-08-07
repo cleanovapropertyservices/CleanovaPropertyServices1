@@ -245,7 +245,7 @@ export default function Index() {
 								<p>We are focused on sustainable business that delivers the best possible project results.</p>
 							</div>
 							<div className="link_holder">
-								<Link href="/contact"><a>Book A Services</a></Link>
+								<Link href="/contact"><a>Book A Service</a></Link>
 							</div>
 						</div>
 					</div>

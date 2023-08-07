@@ -151,7 +151,7 @@ export default function MobileHeader() {
 									</ul>
 								</li>
 								<li><Link href="/blog"><a>Blog</a></Link></li>*/}
-								<li><Link href="/contact"><a>Book A services</a></Link></li>
+								<li><Link href="/contact"><a>Book A service</a></Link></li>
 							</ul>
 						</nav>
 					</div>
