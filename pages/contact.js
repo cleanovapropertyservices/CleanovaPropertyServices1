@@ -80,13 +80,13 @@ export default function Contact() {
 															</span>
 															<span className="shape"></span>
 														</span>
-														<h3>Washington Office</h3>
+														<h3>Porirua City</h3>
 													</div>
 													<div className="content_holder">
 														<ul>
-															<li>100-120 Ft.Drive NE, Washington, DC 20011</li>
-															<li>Phone: +1 202-415-7234</li>
-															<li>Email: <Link href="mailto:w.industify@gmail.com"><a>w.industify@gmail.com</a></Link></li>
+															<li>27 Hukatai Street, Elsdon, Porirua, 5022, NZ</li>
+															<li>Phone: +64 022-0455-048</li>
+															<li>Email: <Link href="mailto:cleanovapropertyservices@gmail.com"><a>cleanovapropertyservices@gmail.com</a></Link></li>
 														</ul>
 													</div>
 												</div>
@@ -101,13 +101,13 @@ export default function Contact() {
 															</span>
 															<span className="shape"></span>
 														</span>
-														<h3>New-York Office</h3>
+														<h3>Wellington city</h3>
 													</div>
 													<div className="content_holder">
 														<ul>
-															<li>110-115 Ft.Consort NE, New-York, DC 20031</li>
-															<li>Phone: +1 272-436-4524</li>
-															<li>Email: <Link href="mailto:n.industify@gmail.com"><a>n.industify@gmail.com</a></Link></li>
+															<li>92 Constable Street, Newtown, Wellington, New Zealand</li>
+															<li>Phone: +64 223-993-001</li>
+															<li>Email: <Link href="mailto:cleanovapropertyservices@gmail.com"><a>cleanovapropertyservices@gmail.com</a></Link></li>
 														</ul>
 													</div>
 												</div>
@@ -122,13 +122,13 @@ export default function Contact() {
 															</span>
 															<span className="shape"></span>
 														</span>
-														<h3>Boston Office</h3>
+														<h3>Lower Hutt & Upper Hutt City</h3>
 													</div>
 													<div className="content_holder">
 														<ul>
-															<li>100-120 Ft.Albemarle NE, Boston, DC 20017</li>
-															<li>Phone: +1 252-925-7564</li>
-															<li>Email: <Link href="mailto:b.industify@gmail.com"><a>b.industify@gmail.com</a></Link></li>
+															<li>14-12 Tacoma Drive, Tōtara Park, Upper Hutt, New Zealand</li>
+															<li>Phone: +64 220-455-048</li>
+															<li>Email: <Link href="mailto:cleanovapropertyservices@gmail.com"><a>cleanovapropertyservices@gmail.com</a></Link></li>
 														</ul>
 													</div>
 												</div>
