@@ -61,7 +61,7 @@ export default function DesktopHeader() {
                     <div className="menu_logo">
                         <Link href="/"><a>
                             <img className="desktop_logo" src="img/logo-light1.gif" alt="Industry HTML Template" />
-                            <img className="desktop_logo_dark" src="img/logo-dark1.png" alt="Industry HTML Template" />
+                            <img className="desktop_logo_dark" src="img/logo-dark1.gif" alt="Industry HTML Template" />
                         </a></Link>
                     </div>
                     <div className="menu_nav">
