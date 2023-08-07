@@ -1,12 +1,27 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import Layout from '../layout/layout'
 import Title from '../layout/title'
 import { Location } from '../public/svg/icon'
 import Link from 'next/link'
-
+import emailjs from '@emailjs/browser';
 
 
 export default function Contact() {
+	const form = useRef();
+	const [check, setCheck] = useState([false, false]);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+		console.log(form.current)
+    emailjs.sendForm('service_vunh9gg', 'template_5xug8jx', form.current, 'MY2YBVfnXvBRVei6P')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 	return (
 		<>
 			<Layout>
@@ -41,7 +56,7 @@ export default function Contact() {
 							<div className="contact_holder">
 								<div className="contact_left">
 									<h3>Get in touch with us</h3>
-									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="frenifyteam@gmail.com">
+									<form className="contact_form" ref={form} onSubmit={sendEmail}>
 
 
 										{/* Don't remove below code in avoid to work contact form properly.
@@ -51,17 +66,32 @@ export default function Contact() {
 										<div className="empty_notice"><span>Please Fill Required Fields</span></div>
 										{/*  */}
 										<div className="items">
+											<input type='hidden' name="from_emailorpone" value={check[0] && check[1] ? "email or phone" : (check[0] ? "email" : (check[1] ? "phone" : ""))} />
 											<div className="item">
-												<input id="name" type="text" placeholder="Name" />
+												<input id="name" type="text" placeholder="Name" name='from_name' />
 											</div>
 											<div className="item">
-												<input id="email" type="email" placeholder="Email" />
+												<input id="email" type="email" placeholder="Email" name='from_email' />
 											</div>
 											<div className="item">
-												<textarea id="message" placeholder="Message"></textarea>
+												<input id="tel" type="tel" placeholder="Phone" name='from_phone' />
+											</div>
+											<div>
+												<span>Preferred way of contact :</span>
+												<div className='checkboxs-group'>
+												<div className='checkbox'>
+														<input type='checkbox' id='emailCheck' value={check[0]} onChange={() => {setCheck([!check[0], check[1]])}}/> <label htmlFor='emailCheck'>Email</label>
+													</div>
+													<div className='checkbox'>
+														<input type='checkbox' id='phoneCheck' value={check[1]} onChange={() => {setCheck([check[0], !check[1]])}}/> <label htmlFor='phoneCheck'>Phone</label>
+													</div>
+												</div>
 											</div>
 											<div className="item">
-												<Link href="#"><a id="send_message">Send Message</a></Link>
+												<textarea id="message" placeholder="Message" name='message'></textarea>
+											</div>
+											<div className="item">
+												<a id="send_message" onClick={sendEmail}>Send Message</a>
 											</div>
 										</div>
 									</form>
