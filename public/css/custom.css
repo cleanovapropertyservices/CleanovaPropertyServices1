@@ -3023,7 +3023,7 @@ a:focus {
 	display: flex;
 	-moz-box-align: center;
 	align-items: center;
-	z-index: 5
+	z-index: 5;
 }
 
 .industify_fn_mobilemenu_wrap .m_toll_free .tf_in p {

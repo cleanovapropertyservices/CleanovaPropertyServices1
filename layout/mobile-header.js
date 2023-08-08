@@ -18,8 +18,8 @@ export default function MobileHeader() {
 			<div className="industify_fn_mobilemenu_wrap">
 				<div className="industify_fn_toppanel">
 					<div className="left_panel">
-						<div className="info"><Link href="/tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link></div>
-						<div className="info"><Link href="/mailto:CleanovaPropertyServices@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link></div>
+						<div className="info"><Link href="tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link></div>
+						<div className="info"><Link href="mailto:CleanovaPropertyServices@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link></div>
 						<div className="industify_fn_social_list">
 							<ul>
 								<li>
@@ -66,7 +66,7 @@ export default function MobileHeader() {
 						<span className="shape3"></span>
 						<div className="tf_in">
 							<div className="img_holder" style={{ "backgroundImage": "url(img/supportContact.png)" }}></div>
-							<p><span>Call Now:</span> 0220455048</p>
+							<p><span>Call Now: <a href='tel:+64220455048'>(+64) 220-455-048</a></span></p>
 						</div>
 					</div>
 				</div>
@@ -75,7 +75,7 @@ export default function MobileHeader() {
 				<div className="logo_hamb">
 					<div className="in">
 						<div className="menu_logo">
-							<Link href="/"><a><img src="img/logo-light.png" alt="Industry Template" /></a></Link>
+							<Link href="/"><a><img src="img/logo-light1.gif" alt="Industry Template" /></a></Link>
 						</div>
 						<div onClick={MobileMenuTrueFalse} className={!isMobileMenu ? "hamburger hamburger--collapse-r" : "hamburger hamburger--collapse-r is-active"}>
 							<div className="hamburger-box">
