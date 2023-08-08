@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <footer className="industify_fn_footer">
                 <div className="top_footer">
-                    <div className="top_footer_img" style={{ "background": "url(img/footer/bg.jpg)" }}></div>
+                    <div className="top_footer_img" style={{ "background": "url(img/service/single/s7.jpg)" }}></div>
                     {/* <!-- SUBSCRIBE --> */}
                     <div className="subscribe_f">
                         <div className="container">
@@ -35,7 +35,7 @@ export default function Footer() {
                                     <li>
                                         <div className="item">
                                             <div className="logo">
-                                                <Link href="/"><a><img src="img/logo-light.png" alt="" /></a></Link>
+                                                <Link href="/"><a><img src="img/logo-light1.gif" alt="" /></a></Link>
                                             </div>
                                             <div className="textwidget">
                                                 <p>We are focused on user-driven outcomes, we strive to create meaningful connections for users through considered strategy and innovation.</p>
@@ -79,10 +79,6 @@ export default function Footer() {
                                             <div className="widget_nav_menu">
                                                 <ul className="menu">
                                                     <li><Link href="/services"><a>Our Services</a></Link></li>
-                                                    <li><Link href="#"><a>Disclaimer</a></Link></li>
-                                                    <li><Link href="#"><a>Showcase</a></Link></li>
-                                                    <li><Link href="#"><a>Privacy Policy</a></Link></li>
-                                                    <li><Link href="#"><a>Affliates</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -101,10 +97,6 @@ export default function Footer() {
                                 <div className="widget_nav_menu">
                                     <ul className="menu">
                                         <li><Link href="/services"><a>Services</a></Link></li>
-                                        <li><Link href="#"><a>Affliates</a></Link></li>
-                                        <li><Link href="#"><a>Disclaimer</a></Link></li>
-                                        <li><Link href="#"><a>Privacy Policy</a></Link></li>
-                                        <li><Link href="#"><a>Career</a></Link></li>
                                     </ul>
                                 </div>
                             </div>
