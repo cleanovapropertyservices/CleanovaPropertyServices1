@@ -2525,7 +2525,7 @@ a:focus {
 .contact_left textarea,
 .contact_left input[type="text"],
 .contact_left input[type="email"],
-.contact_left input[type="tel"]{
+.contact_left input[type="number"]{
 	width: 100%;
 	display: block;
 	border-radius: 3px;
@@ -2551,7 +2551,7 @@ a:focus {
 .contact_left a:hover{
 	background-color: #45a2df;
 }
-.contact_left a{
+.contact_left .submit{
 	display: inline-block;
 	height: 44px;
 	line-height: 44px;
@@ -9182,7 +9182,7 @@ blockquote{
 .fn_cs_location_list .content_holder li{
 	margin: 0;
 	padding: 0;
-	margin-bottom: 8px;
+	margin-bottom: 22px;
 	color: #999;
 }
 .fn_cs_location_list .content_holder li:last-child{
@@ -9513,3 +9513,19 @@ blockquote{
 	color: #EEE;
 	margin-bottom: 24px;
 }
+.iframeContainer {
+	position: relative;
+  }
+  
+  .iframeContainer::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	cursor: pointer;
+  }
+  
