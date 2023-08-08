@@ -1,13 +1,11 @@
-import { Messanger, Whatsapp } from "../public/svg/social/IconSocial";
-
 export default function PopRight({ show }) {
   return (
     <div className={`popright ${show ? 'show' : 'hide'}`}>
       <a>
-        <Whatsapp />
+        <img src="/img/WhatAppGif.gif" />
       </a>
       <a>
-        <Messanger />
+        <img src="/img/MessengerGif.gif" />
       </a>
     </div>
   )
