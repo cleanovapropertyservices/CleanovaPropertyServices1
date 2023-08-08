@@ -79,7 +79,7 @@ export default function DesktopHeader() {
                                 <Link href="/portfolio"><a>Projects</a></Link>
                             </li>*/}
                             <li className="menu-item-has-children">
-                                <Link href="#"><a>Our Services</a></Link>
+                                <Link href="/services"><a>Our Services</a></Link>
                                 <ul className="sub-menu">
                                     <li>
                                         <Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link>

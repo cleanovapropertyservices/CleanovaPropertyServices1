@@ -101,7 +101,7 @@ export default function MobileHeader() {
 								</li>
 								{/*<li><Link href="/portfolio"><a>Projects</a></Link></li>*/}
 								<li>
-									<Link href="#"><a className="has-arrow">OUR SERVICES</a></Link>
+									<Link href="/services"><a className="has-arrow">OUR SERVICES</a></Link>
 									<ul>
 										<li>
 											<Link href="#"><a className="has-arrow">Business and Workspace Sanitation</a></Link>

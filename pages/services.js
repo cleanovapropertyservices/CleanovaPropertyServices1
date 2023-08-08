@@ -42,15 +42,15 @@ export default function Services() {
 										<div className="item">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.jpg)" }}></div>
-													<Link href="/service-single-9"><a></a></Link>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s1.jpg)" }}></div>
+													<Link href="/business-workspace-sanitation"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-9"><a>Aerospace and  Defense</a></Link></h3>
+													<h3><Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link></h3>
 													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
 												</div>
 												<div className="read_more">
-													<Link href="/service-single-9"><a>Read More</a></Link>
+													<Link href="/business-workspace-sanitation"><a>Read More</a></Link>
 												</div>
 											</div>
 										</div>
@@ -59,15 +59,15 @@ export default function Services() {
 										<div className="item">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/8.jpg)" }}></div>
-													<Link href="/service-single-8"><a></a></Link>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s8.jpg)" }}></div>
+													<Link href="/home-cleaning-services"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-8"><a>Automative Manufacturing</a></Link></h3>
+													<h3><Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link></h3>
 													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
 												</div>
 												<div className="read_more">
-													<Link href="/service-single-8"><a>Read More</a></Link>
+													<Link href="/home-cleaning-services"><a>Read More</a></Link>
 												</div>
 											</div>
 										</div>
@@ -76,32 +76,15 @@ export default function Services() {
 										<div className="item">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
-													<Link href="/service-single-7"><a></a></Link>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s10.jpg)" }}></div>
+													<Link href="/specialized-cleaning-solutions"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Chemical Industry</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
-												</div>
-												<div className="read_more">
-													<Link href="/service-single-7"><a>Read More</a></Link>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div className="item">
-											<div className="item_in">
-												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/6.jpg)" }}></div>
-													<Link href="/service-single-6"><a></a></Link>
-												</div>
-												<div className="title">
-													<h3><Link href="/service-single-6"><a>Oil and Gas Industry</a></Link></h3>
+													<h3><Link href="/specialized-cleaning-solutions"><a>Specialized Cleaning Solutions</a></Link></h3>
 													<p>The Shale Oil and Gas Revolution has changed the energy world. Industify has kept pace by providing crucial and timely exploration, production, quality, quantity inventory,</p>
 												</div>
 												<div className="read_more">
-													<Link href="/service-single-6"><a>Read More</a></Link>
+													<Link href="/specialized-cleaning-solutions"><a>Read More</a></Link>
 												</div>
 											</div>
 										</div>
@@ -110,32 +93,15 @@ export default function Services() {
 										<div className="item">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/5.jpg)" }}></div>
-													<Link href="/service-single-5"><a></a></Link>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s11.jpg)" }}></div>
+													<Link href="/additional-cleaning-services"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-5"><a>Energy &amp; Commodities</a></Link></h3>
+													<h3><Link href="/additional-cleaning-services"><a>Additional Cleaning Services</a></Link></h3>
 													<p>Today’s energy and commodities industries power and feed the world economy. The efficient and effective operation of these projects is vital to sustained energy growth</p>
 												</div>
 												<div className="read_more">
-													<Link href="/service-single-5"><a>Read More</a></Link>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div className="item">
-											<div className="item_in">
-												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/4.jpg)" }}></div>
-													<Link href="/service-single-4"><a></a></Link>
-												</div>
-												<div className="title">
-													<h3><Link href="/service-single-4"><a>Medical Devices</a></Link></h3>
-													<p>Get your medical device tested and into the hands of your customers faster than ever before. Time to market starts with partnership, and for more</p>
-												</div>
-												<div className="read_more">
-													<Link href="/service-single-4"><a>Read More</a></Link>
+													<Link href="/additional-cleaning-services"><a>Read More</a></Link>
 												</div>
 											</div>
 										</div>
@@ -144,13 +110,13 @@ export default function Services() {
 
 								<div className="clearfix"></div>
 
-								<div className="industify_fn_pagination">
+								{/*<div className="industify_fn_pagination">
 									<ul>
 										<li className="active"><span className="current">1</span></li>
 										<li><Link href="#"><a>2</a></Link></li>
 										<li className="view"><p>Viewing page 1 of 2</p></li>
 									</ul>
-								</div>
+								</div>*/}
 
 
 							</div>
@@ -168,15 +134,10 @@ export default function Services() {
 									</div>
 									<div className="list_holder">
 										<ul>
-											<li><Link href="/service-single-9"><a>Aerospace and Defense</a></Link></li>
-											<li><Link href="/service-single-8"><a>Automative Manufacturing</a></Link></li>
-											<li><Link href="/service-single-7"><a>Chemical Industry</a></Link></li>
-											<li><Link href="/service-single-6"><a>Oil and Gas Industry</a></Link></li>
-											<li><Link href="/service-single-5"><a>Energy &amp; Commodities</a></Link></li>
-											<li><Link href="/service-single-4"><a>Medical Devices</a></Link></li>
-											<li><Link href="/service-single-3"><a>Housewares &amp; Home Decor</a></Link></li>
-											<li><Link href="/service-single-2"><a>Textiles &amp; Apparel</a></Link></li>
-											<li><Link href="/service-single-1"><a>Construction &amp; Engineering</a></Link></li>
+											<li><Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link></li>
+											<li><Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link></li>
+											<li><Link href="/specialized-cleaning-solutions"><a>Specialized Cleaning Solutions</a></Link></li>
+											<li><Link href="/additional-cleaning-services"><a>Additional Cleaning Services</a></Link></li>
 										</ul>
 									</div>
 								</div>
@@ -194,6 +155,21 @@ export default function Services() {
 					</div>
 				</div>
 				{/* /Sidebar Page */}
+				{/* <!-- Call to Action --> */}
+				<div className="fn_cs_call_to_action">
+					<div className="container">
+						<div className="cta_holder">
+							<div className="title_holder">
+								<h3>We will Make Your Dream Come True</h3>
+								<p>We are focused on sustainable business that delivers the best possible project results.</p>
+							</div>
+							<div className="link_holder">
+								<Link href="/contact"><a>Book A Service</a></Link>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* <!-- /Call to Action --> */}
 			</Layout>
 
 		</>
