@@ -47,7 +47,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<p>Elevate workplace hygiene with our professional care. At the forefront of our mission is the protection of your team, ensuring a pristine and health-conscious environment. We believe in boosting your productivity by maintaining a thoroughly sanitized workspace.</p>
 												</div>
 												<div className="read_more">
 													<Link href="/business-workspace-sanitation"><a>Read More</a></Link>
@@ -64,7 +64,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<p>Breathe new life into your living space with our comprehensive home cleaning services. Our expert cleaners are dedicated to making homes sparkle from floor to ceiling, ensuring that every corner gleams. Restore the comfort and freshness you deserve in your personal sanctuary.</p>
 												</div>
 												<div className="read_more">
 													<Link href="/home-cleaning-services"><a>Read More</a></Link>
@@ -81,7 +81,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/specialized-cleaning-solutions"><a>Specialized Cleaning Solutions</a></Link></h3>
-													<p>The Shale Oil and Gas Revolution has changed the energy world. Industify has kept pace by providing crucial and timely exploration, production, quality, quantity inventory,</p>
+													<p>Dive into our specialized cleaning solutions, where we employ advanced techniques for those unique cleaning challenges. Offering tailored solutions for hard-to-tackle areas, our expertise goes beyond the conventional clean, ensuring every detail is addressed.</p>
 												</div>
 												<div className="read_more">
 													<Link href="/specialized-cleaning-solutions"><a>Read More</a></Link>
@@ -98,7 +98,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="/additional-cleaning-services"><a>Additional Cleaning Services</a></Link></h3>
-													<p>Today’s energy and commodities industries power and feed the world economy. The efficient and effective operation of these projects is vital to sustained energy growth</p>
+													<p>Complementing our primary offerings, we proudly present our additional cleaning services. These go beyond the basics, ensuring that even the minutiae of your cleaning needs are met with precision. Whatever your requirement, we expand our services to cater to every cleaning nuance.</p>
 												</div>
 												<div className="read_more">
 													<Link href="/additional-cleaning-services"><a>Read More</a></Link>
