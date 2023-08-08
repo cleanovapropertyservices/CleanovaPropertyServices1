@@ -101,39 +101,53 @@ export default function MobileHeader() {
 								</li>
 								{/*<li><Link href="/portfolio"><a>Projects</a></Link></li>*/}
 								<li>
-									<Link href="#"><a className="has-arrow">Our Services</a></Link>
+									<Link href="#"><a className="has-arrow">OUR SERVICES</a></Link>
 									<ul>
 										<li>
-											<Link href="/service-single-9"><a className="has-arrow">Aerospace and Defense</a></Link>
-											<ul>
-												<li><Link href="/office-cleaning">OFFICE CLEANING</Link></li>
-												<li><Link href="/office-cleaning">COMMON AREA CLEANING</Link></li>
-												<li><Link href="/office-cleaning">BUILDERS & CONSTRUCTION CLEANING</Link></li>
-												<li><Link href="/office-cleaning">SCHOOLS & EDUCATION PROVIDER CLEANING</Link></li>
-												<li><Link href="/office-cleaning">SUPERMARKET & RETAIL CLEANING</Link></li>
-												<li><Link href="/office-cleaning">PUBLIC FACILITY CLEANING</Link></li>
-												<li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
+											<Link href="#"><a className="has-arrow">Business and Workspace Sanitation</a></Link>
+											<ul className='ss'>
+												<li><Link scroll={false} href="/business-workspace-sanitation#scrubbing-dusting-offices">Scrubbing and Dusting of Offices</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#transparent-surface-sanitation">Transparent Surface (Window) Sanitation</Link></li>
 											</ul>
 										</li>
 										<li>
-											<Link href=""><a className="has-arrow">Automative Manufacturing</a></Link>
-											<ul>
-												<li><Link href="/office-cleaning">RENTAL PROPERTY CLEANING</Link></li>
-												<li><Link href="/office-cleaning">MOVE OUT CLEANING & END OF TENANCY CLEANING</Link></li>
-												<li><Link href="/office-cleaning">PRE TENANCY CLEANING & CHECKS</Link></li>
-												<li><Link href="/office-cleaning">PRE SALE CLEANING</Link></li>
-												<li><Link href="/office-cleaning">WALLS & CEILING CLEANING</Link></li>
-												<li><Link href="/office-cleaning">MOULD & MILDEW CLEANING</Link></li>
-												<li><Link href="/office-cleaning">DECK CLEANING, PATH CLEANING & HOUSE WASHING</Link></li>
-												<li><Link href="/office-cleaning">WINDOW CLEANING</Link></li>
-												</ul>
+											<Link href="#"><a className="has-arrow">Home Cleaning Services</a></Link>
+											<ul className='ss'>
+												<li><Link scroll={false} href="/home-cleaning-services#lease-property-sanitation">Lease Property Sanitation</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#post-occupancy-cleanup">Post-Occupancy Cleanup</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#pre-occupancy-scrub-down-inspection">Pre-Occupancy Scrub-down and Inspection</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#cleaning-services-before-property-sale">Cleaning Services before Property Sale</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#detailed-cleaning-kitchens-bathrooms-ovens">Detailed Cleaning of Kitchens, Bathrooms, and Ovens</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#wall-ceiling-sanitation">Wall and Ceiling Sanitation</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#mildew-mould-remediation">Mildew and Mould Remediation</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#house-deck-pathway-power-washing">House, Deck, and Pathway Power Washing</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#transparent-surface-cleanup">Transparent Surface (Window) Cleanup</Link></li>
+											</ul>
 										</li>
 										<li>
-											<Link href="/service-single-7"><a className="has-arrow">Chemical Industry</a></Link>
-											<ul>
-												<li><Link href="/office-cleaning">CARPET CLEANING</Link></li>
-												<li><Link href="/office-cleaning">UPHOLSTERY CLEANING</Link></li>
-												<li><Link href="/office-cleaning">SPRING CLEANING</Link></li>
+											<Link href="#"><a className="has-arrow">Specialized Cleaning Solutions</a></Link>
+											<ul className='ss'>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#rug-carpet-deep-clean">Rug and Carpet Deep Clean</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#furniture-upholstery-freshening">Furniture Upholstery Freshening</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#comprehensive-springtime-cleaning">Comprehensive Springtime Cleaning</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#in-depth-sanitization-sterilization">In-Depth Sanitization and Sterilization</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#thorough-bathroom-scrub-down">Thorough Bathroom Scrub-down</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#floor-maintenance-care">Floor Maintenance and Care</Link></li>
+													<li><Link scroll={false} href="/specialized-cleaning-solutions#maintenance-assistance-facilities">Maintenance Assistance for Facilities</Link></li>
+											</ul>
+										</li>
+										<li>
+											<Link href="#"><a className="has-arrow">Additional Cleaning Services</a></Link>
+											<ul className='ss'>
+													<li><Link scroll={false} href="/additional-cleaning-services#vehicle-interior-cleaning">Vehicle Interior Cleaning</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#grout-tile-deep-clean">Grout and Tile Deep Clean</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#garage-cleanup-organisation">Garage Cleanup and Organisation</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#garden-shed-outdoor-furniture-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#pest-dropping-cleanup-sanitization">Pest Dropping Cleanup and Sanitization</Link></li>
 											</ul>
 										</li>
 									</ul>

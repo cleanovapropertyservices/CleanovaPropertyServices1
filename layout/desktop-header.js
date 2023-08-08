@@ -119,7 +119,7 @@ export default function DesktopHeader() {
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link href="/speciality-cleaning"><a>Additional Cleaning Services</a></Link>
+                                        <Link href="/additional-cleaning-services"><a>Additional Cleaning Services</a></Link>
                                         <ul>
                                             <li><Link scroll={false} href="/additional-cleaning-services#vehicle-interior-cleaning">Vehicle Interior Cleaning</Link></li>
                                             <li><Link scroll={false} href="/additional-cleaning-services#grout-tile-deep-clean">Grout and Tile Deep Clean</Link></li>
