@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter, Vk } from '../public/svg/social/IconSocial';
 
-const background = "img/call.png"
+const background = "/img/about/supportContact.png"
 
 export default function DesktopHeader() {
 
