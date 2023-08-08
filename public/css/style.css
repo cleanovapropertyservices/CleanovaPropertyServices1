@@ -710,6 +710,17 @@ a:focus {
 	letter-spacing: .5px;
 	font-style: italic;
 }
+
+.industify_fn_header .toll_free .tf_in p a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.industify_fn_mobilemenu_wrap .m_toll_free .tf_in p a{
+	color: #FFF;
+	text-decoration: none;
+}
+
 .industify_fn_header .toll_free .img_holder{
 	position: absolute;
 	width: 42px;
@@ -9497,6 +9508,13 @@ blockquote{
   z-index: 1000;
 }
 
+@media(max-width: 768px){
+	.popright {
+		flex-direction: column;
+		top: 70%;
+	}
+}
+
 .popright a {
   cursor: pointer;
   width: 50px;
@@ -9529,3 +9547,7 @@ blockquote{
 	cursor: pointer;
   }
   
+
+.ss {
+	margin-left: 20px !important;
+}
