@@ -1,10 +1,12 @@
 import React from 'react'
-import Services from '../components/Home/HomeServices'
 import Slider from '../components/Home/HomeSlider'
 import Layout from '../layout/layout'
 import Title from '../layout/title'
 import Link from 'next/link'
 import { Arrow_r, Certificate, Checked, Quotes, Stars } from '../public/svg/icon'
+import dynamic from 'next/dynamic'
+ 
+const Services = dynamic(() => import('../components/Home/HomeServices'), { ssr: false })
 
 const right = "/img/about/right.jpg"
 const rightImage = "/img/service/right-image.jpg"

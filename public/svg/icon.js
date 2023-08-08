@@ -2,7 +2,6 @@ import React from 'react'
 
 function Arrow_r({ className }) {
     return (
-
         <svg className={className} version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31.49 31.49" style={{ "enableBackground": "new 0 0 31.49 31.49" }} xmlSpace="preserve">
             <path d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111

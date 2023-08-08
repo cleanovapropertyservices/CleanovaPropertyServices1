@@ -34,14 +34,14 @@ const services = [
     {
         link:"/specialized-cleaning-solutions",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/s10.jpg",
+        bg: "img/service/single/s10.jpg",
         title:"Specialized Cleaning Solutions"
 
     },
     {
         link:"/additional-cleaning-services",
         img: "img/thumb/480-700.jpg",
-        bg: "/img/service/single/s11.jpg",
+        bg: "img/service/single/s11.jpg",
         title:"Additional Cleaning Services"
 
     },
@@ -68,7 +68,6 @@ export default function HomeServices() {
                         <Swiper
                             spaceBetween={0}
                             slidesPerView={2}
-                            autoplaydisableoninteraction={false}
                             loop={true}
                             // pagination={{ clickable: true }}
                             className="custom-class"
