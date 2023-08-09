@@ -62,7 +62,6 @@ export default function Home3Testimonial() {
                                 <Swiper
                                     spaceBetween={70}
                                     slidesPerView={1}
-                                    autoplaydisableoninteraction={false}
                                     loop={true}
                                     className="custom-class"
                                     navigation={{
