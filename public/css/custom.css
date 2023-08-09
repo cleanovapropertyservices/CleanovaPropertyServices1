@@ -2158,7 +2158,7 @@ img.mfp-img {
 
 .swiper-slide {
 	flex-shrink: 0;
-	width: 100% !important;
+	min-width: 300px;
 	height: 100%;
 	position: relative;
 	-webkit-transition-property: -webkit-transform;
