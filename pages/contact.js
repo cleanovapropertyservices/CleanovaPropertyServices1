@@ -62,10 +62,10 @@ export default function Contact() {
     if (GoogleCapcha) {
       emailjs
         .sendForm(
-          "service_vunh9gg",
-          "template_5xug8jx",
+          process.env.NEXT_PUBLIC_Emailjs_SERVICE_ID,
+          process.env.NEXT_PUBLIC_Emailjs_TEMPLATE_ID,
           form.current,
-          "MY2YBVfnXvBRVei6P"
+          process.env.NEXT_PUBLIC_Emailjs_PUBLIC_KEY
         )
         .then(
           (result) => {
@@ -219,7 +219,7 @@ export default function Contact() {
                         ></textarea>
                       </div>
                       <ReCAPTCHA
-                        sitekey={"6LcS0Y0nAAAAAGR8KZZRrtrflj8DVT4MRbjDVa3O"}
+                        sitekey={process.env.NEXT_PUBLIC_GOOGLE_REACPCHA_SITE_KEY}
                         onChange={onChange}
                       />
                       <div className="item">
