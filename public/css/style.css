@@ -4794,7 +4794,6 @@ blockquote{
 		padding-top: 0px;
 	}
 	.fn_cs_about_with_rating .badge_left{
-		min-height: 320px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;

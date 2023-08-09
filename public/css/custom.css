@@ -8300,7 +8300,6 @@ blockquote {
 	}
 
 	.fn_cs_about_with_rating .badge_left {
-			min-height: 320px;
 			display: -moz-box;
 			display: flex;
 			-moz-box-orient: vertical;
@@ -8320,6 +8319,7 @@ blockquote {
 	}
 
 	.fn_cs_about_with_rating .top_section {
+			max-width: 480px;
 			padding: 40px 40px 42px
 	}
 
