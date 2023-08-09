@@ -29,7 +29,6 @@ export default function Home3Slider() {
                     <Swiper
                         spaceBetween={2}
                         slidesPerView={1}
-                        autoplaydisableoninteraction={false}
                         loop={true}
                         pagination={{ clickable: true }}
                         className="custom-class"
