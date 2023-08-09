@@ -339,8 +339,6 @@ a:focus {
 		padding-right: 20px;
     	padding-left: 46px;
 	}
-	.industify_fn_mobilemenu_wrap .m_toll_free .tf_in p span,
-	.industify_fn_mobilemenu_wrap .m_toll_free .img_holder{display: none;}
 }
 /*------------------------------------------------------------------*/ 
 /*	3.1. HAMBURGER MENU
@@ -3762,15 +3760,14 @@ blockquote{
 	.industify_slider_alpha .title_holder .in,
 	.industify_slider_alpha .title_holder .inner{display: block;}
 	.industify_slider_alpha .title_holder{
-		width: auto;
-		padding: 10px 20px;
-		top: auto;
-		right: 60px;
-		left: 60px;
-		margin-top: auto;
-		bottom: 60px;
-		text-align: center;
-		height: 60px;
+		width: auto !important;
+		padding: 10px 20px !important;
+		top: auto !important;
+		right: 0 !important;
+		margin-top: auto !important;
+		bottom: 60px !important;
+		text-align: left !important;
+		height: 60px !important;
 	}
 	.industify_slider_alpha .title_holder p{
 		display: none !important;

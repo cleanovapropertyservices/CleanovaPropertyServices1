@@ -2158,7 +2158,7 @@ img.mfp-img {
 
 .swiper-slide {
 	flex-shrink: 0;
-	width: 100%;
+	width: 100% !important;
 	height: 100%;
 	position: relative;
 	-webkit-transition-property: -webkit-transform;
@@ -3088,10 +3088,6 @@ a:focus {
 	.industify_fn_mobilemenu_wrap .m_toll_free .tf_in {
 			padding-right:20px;
 			padding-left: 46px
-	}
-
-	.industify_fn_mobilemenu_wrap .m_toll_free .img_holder,.industify_fn_mobilemenu_wrap .m_toll_free .tf_in p span {
-			display: none
 	}
 }
 
@@ -6851,6 +6847,27 @@ blockquote {
 	font-weight: 400;
 	margin: 0 0 34px;
 	color: #fff
+}
+
+
+@media screen and (max-width: 765px) {
+
+	.industify_slider_alpha .title_holder h3 {
+		margin: 0 !important;
+	}
+
+	.industify_slider_alpha .title_holder h3 span {
+		color: #eee;
+		text-decoration: none;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		transition: all .3s ease;
+		font-size: 24px !important;
+	}
+
+	.industify_slider_alpha[data-text-effect=enabled] .title_holder .in>*>span {
+		font-size: 24px !important;
+	}
 }
 
 .industify_slider_alpha .title_holder h3 a {
