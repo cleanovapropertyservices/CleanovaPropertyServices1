@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic'
  
 const Services = dynamic(() => import('../components/Home/HomeServices'), { ssr: false })
 
-const right = "/img/about/right.jpg"
+const right = "/img/about/Steven1.png"
 const rightImage = "/img/service/right-image.jpg"
 const testimonial = "/img/testimonial/bg.jpg"
 const portfolio1 = "/img/portfolio/1.jpg"
@@ -95,7 +95,7 @@ export default function Index() {
 										<p>To provide exceptional services to the insurance industry and thier clients, the property owner. We are committed to providing the highest level of professionalism, service response, and quality workmanship.</p>
 									</div>
 									<div className="sign_holder">
-										<h3 className="name">Alan Michaelis</h3>
+										<h3 className="name">Steven Eashae</h3>
 										<p className="occ">Chief Executive</p>
 									</div>
 								</div>
@@ -122,7 +122,7 @@ export default function Index() {
 										</div>
 										<div className="img_holder layer" data-depth="0.5" style={{ "position": "absolute", "display": "block", "left": "0px", "top": "0px", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden", "transform": "translate3d(35.4636px, -31.6792px, 0px)" }}>
 											<img src="img/thumb/500-560.jpg" alt="" />
-											<div className="abs_img" data-bg-img="img/about/right.jpg" style={{ "backgroundImage": "url(img/about/right.jpg)" }}></div>
+											<div className="abs_img" data-bg-img="img/about/Steven1.png" style={{ "backgroundImage": "url(img/about/Steven1.png)" }}></div>
 										</div>
 										<div className="dots layer" data-switch="disable" data-depth="0.9" style={{ "position": "absolute", "display": "block", "left": "0px", "top": "0px", "transform": "translate3d(63.8345px, -57.0226px, 0px)", "transformStyle": "preserve-3d", "backfaceVisibility": "hidden" }}>
 											<img src="img/thumb/500-560.jpg" alt="" />
