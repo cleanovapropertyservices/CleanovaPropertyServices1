@@ -9551,3 +9551,7 @@ blockquote{
 .ss {
 	margin-left: 20px !important;
 }
+.socialIcon {
+	width: 100px;  /* Adjust this to your desired size */
+	height: 100px; /* Adjust this to your desired size */
+  }

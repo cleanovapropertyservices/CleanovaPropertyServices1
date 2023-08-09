@@ -104,9 +104,9 @@ export default function Index1() {
                 <div className="a_inner">
                   <div className="leftpart">
                     <div className="title_holder">
-                      <h3 className="title">We are Industify</h3>
-                      <p>Industify is a pioneer in design-build specializing in engineering, architecture and construction services to both domestic and international customers. Founded in 1960, Industify is a family-owned company headquartered in Lexington, Ky. with offices across the U.S., Canada and Japan.</p>
-                      <p>To provide exceptional services to the insurance industry and thier clients, the property owner. We are committed to providing the highest level of professionalism, service response, and quality workmanship.</p>
+                      <h3 className="title">Spotless Excellence with Cleanova</h3>
+                      <p>Launching half a decade ago, Cleanova Property Services has continuously set the gold standard for meticulous cleaning and property maintenance. Headquartered in [Your Location, e.g., "Los Angeles"], we've transformed both bustling commercial environments and intimate residential settings into paradises of cleanliness.</p>
+                      <p>Our ethos is simple: every space deserves perfection. With each endeavor, we channel our passion and expertise, ensuring that our clients experience unparalleled service and outstanding results. As Cleanova continues to grow, our dedication to excellence remains the heartbeat of our operations.</p>
                     </div>
                     <div className="sign_holder">
                       <h3 className="name">Steven Eashae</h3>
@@ -144,7 +144,7 @@ export default function Index1() {
               <div className="inner">
                 <div className="left_part">
                   <div className="title_holder">
-                    <h3 className="l_title">World&apos;s Leading Industry Corporation</h3>
+                    <h3 className="l_title">Local Excellence, Global Standards </h3>
                     <p className="l_desc">To further develop our corporate strengths we have established a corporate mandate to maintain strong core values that truly reflect the companys philosophy.</p>
                   </div>
                   <div className="l_video fn_cs_lightgallery">

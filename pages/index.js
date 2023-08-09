@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic'
 const Services = dynamic(() => import('../components/Home/HomeServices'), { ssr: false })
 
 const right = "/img/about/Steven1.png"
-const rightImage = "/img/service/right-image.jpg"
+const rightImage = "/img/service/StevenSCOGIF1.gif"
 const testimonial = "/img/testimonial/bg.jpg"
 const portfolio1 = "/img/portfolio/1.jpg"
 const portfolio2 = "/img/portfolio/2.jpg"
@@ -90,9 +90,9 @@ export default function Index() {
 							<div className="a_inner">
 								<div className="leftpart">
 									<div className="title_holder">
-										<h3 className="title">We are Industify</h3>
-										<p>Industify is a pioneer in design-build specializing in engineering, architecture and construction services to both domestic and international customers. Founded in 1960, Industify is a family-owned company headquartered in Lexington, Ky. with offices across the U.S., Canada and Japan.</p>
-										<p>To provide exceptional services to the insurance industry and thier clients, the property owner. We are committed to providing the highest level of professionalism, service response, and quality workmanship.</p>
+										<h3 className="title">Cleanova P.S. Beyond Clean</h3>
+										<p>Established five years ago, Cleanova Property Services set out from Porirua city with a mission to redefine the essence of cleanliness. Our touch transforms both commercial and residential spaces, ensuring unparalleled brilliance and attention to detail.</p>
+										<p>Our commitment goes beyond mere cleaning. Every project we undertake showcases our passion for excellence, mirroring our dedication to quality and client satisfaction. With Cleanova, expect a standard that always goes beyond.</p>
 									</div>
 									<div className="sign_holder">
 										<h3 className="name">Steven Eashae</h3>
@@ -152,12 +152,12 @@ export default function Index() {
 								<div className="left_part">
 									<div className="title_holder">
 										<h3>Why choose our services?</h3>
-										<p>At Industify Company, we rely on honesty, discipline and hard work and believe our success can be attributed to upholding a simple set of core values that date back to the beginning of the company.</p>
-										<p>Industify is an integrated design-build firm offering engineering, architecture and construction services to domestic and international customers throughout the U.S. Unique to Industify is the fact that we conduct all disciplines in-house in a collaborative environment.</p>
+										<p>At CleanovaP.S., we don't just clean; we transform spaces. Having refined our skills over half a decade, we're more than just a cleaning service. We're a promise of excellence. From bustling commercial hubs to personal sanctuaries at home, our comprehensive range of services caters to a vast spectrum of needs, ensuring every corner doesn't just shine but resonates with impeccable quality.</p>
+										<p>Choosing Cleanova means choosing unwavering dedication. Our team, armed with top-tier certifications and the latest industry knowledge, approaches each task with unmatched precision and passion. Whether it's a deep sterilization or a meticulous carpet care, we bring in the same commitment to quality and client satisfaction. With Cleanova, you're not just getting a clean space; you're experiencing a new standard of brilliance.</p>
 									</div>
 									<div className="signature">
 										<Certificate className="fn__svg" />
-										<p>We have a<br />ISO Certificate.</p>
+										<p>We have a<br />IICRC Cleaning Certificate.</p>
 									</div>
 								</div>
 								<div className="right_part">
@@ -166,9 +166,9 @@ export default function Index() {
 											<div className="badge_holder">
 												<div className="badge_left">
 													<div className="b_title">
-														<h3>World&apos;s Leading Industry<br />Corporation</h3>
+														<h3>Local Legends in <br />Cleaning Excellence</h3>
 													</div>
-													<div className="b_desc"><span className="year">10</span><span className="text">Years of Experience</span></div>
+													<div className="b_desc"><span className="year">5</span><span className="text">Years of Experience</span></div>
 												</div>
 												<div className="badge_right" style={{ "backgroundImage": `url(${rightImage})` }}></div>
 											</div>
@@ -205,7 +205,7 @@ export default function Index() {
 															<span className="icon">
 																<Checked className="fn__svg" />
 															</span>
-															<p>We have completed over 3000 projects.</p>
+															<p>We have completed over 2530 projects.</p>
 														</div>
 													</li>
 													<li>
@@ -221,7 +221,7 @@ export default function Index() {
 															<span className="icon">
 																<Checked className="fn__svg" />
 															</span>
-															<p>Company has over 2000 workers.</p>
+															<p>Unmatched expertise in our vast crew.</p>
 														</div>
 													</li>
 												</ul>
