@@ -3923,6 +3923,7 @@ a:focus {
 
 .industify_fn_pagetitle .title_holder {
 	width: 100%;
+	max-width: 100%;
 	float: left;
 	clear: both;
 	position: relative;
@@ -6969,6 +6970,7 @@ blockquote {
 }
 
 .industify_slider_alpha[data-box-pos=cr] .title_holder {
+	max-width: 100%;
 	left: auto;
 	right: 0
 }
