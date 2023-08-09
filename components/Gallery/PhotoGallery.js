@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
+// import Gallery from "react-photo-gallery";
+// import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 
 export default function PhotoGallery() {
@@ -19,8 +19,8 @@ export default function PhotoGallery() {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
-      <ModalGateway>
+      {/*<Gallery photos={photos} onClick={openLightbox} />*/}
+      {/*<ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -33,7 +33,7 @@ export default function PhotoGallery() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+        </ModalGateway>*/}
     </div>
   );
 }
