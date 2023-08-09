@@ -109,7 +109,7 @@ export default function Index1() {
                       <p>To provide exceptional services to the insurance industry and thier clients, the property owner. We are committed to providing the highest level of professionalism, service response, and quality workmanship.</p>
                     </div>
                     <div className="sign_holder">
-                      <h3 className="name">Alan Michaelis</h3>
+                      <h3 className="name">Steven Eashae</h3>
                       <p className="occ">Chief Executive</p>
                     </div>
                   </div>
@@ -122,7 +122,7 @@ export default function Index1() {
                       </div>
                       <div className="img_holder layer" data-depth="0.5">
                         <img src="/img/thumb/500-560.jpg" alt="" />
-                        <div className="abs_img" style={{ "backgroundImage": "url(/img/about/right.jpg)" }}></div>
+                        <div className="abs_img" style={{ "backgroundImage": "url(/img/about/Steven1.png)" }}></div>
                       </div>
                       <div className="dots layer" data-switch="disable" data-depth="0.9">
                         <img src="/img/thumb/500-560.jpg" alt="" />
