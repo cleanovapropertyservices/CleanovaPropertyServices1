@@ -4,7 +4,7 @@ import Head from 'next/head'
 export default function Title({title}) {
     return (
         <Head>
-            <title>Industify | {title}</title>
+            <title>CLEANOVA PROPERTY SERVICES | {title}</title>
         </Head>
     )
 }
