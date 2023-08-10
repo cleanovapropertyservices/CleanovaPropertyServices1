@@ -98,7 +98,7 @@ export default function Footer() {
                       <div className="logo">
                         <Link href="/">
                           <a>
-                            <img src="img/logo-light1.gif" alt="" />
+                            <img src="img/logo-dark1.png" alt="" />
                           </a>
                         </Link>
                       </div>
