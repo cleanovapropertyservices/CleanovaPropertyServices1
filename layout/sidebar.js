@@ -49,7 +49,6 @@ export default function Sidebar() {
                                     <li>
                                         <div className="br_item">
                                             <a href='/favicon.png' download="favicon.png"></a>
-                                            <Link href="#"><a download=""></a></Link>
                                             <span className="icon">
                                             <FileZip className="fn__svg" />
                                             </span>

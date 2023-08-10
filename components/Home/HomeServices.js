@@ -67,7 +67,7 @@ export default function HomeServices() {
                     <div className="owl-carousel">
                         <Swiper
                             spaceBetween={0}
-                            slidesPerView={2}
+                            slidesPerView={1}
                             loop={true}
                             // pagination={{ clickable: true }}
                             className="custom-class"
@@ -78,6 +78,9 @@ export default function HomeServices() {
                             breakpoints={{
 
                                 // when window width is >= 768px
+                                560: {
+                                    slidesPerView: 2,
+                                },
 
                                 768: {
                                     // when window width is >= 992px
