@@ -3087,7 +3087,7 @@ a:focus {
 @media(max-width: 768px) {
 	.industify_fn_mobilemenu_wrap .m_toll_free .tf_in {
 			padding-right:20px;
-			padding-left: 20px;
+			padding-left: 46px;
 			gap: 15px;
 	}
 
@@ -3501,8 +3501,8 @@ a:focus {
 
 .industify_fn_header .toll_free .tf_in {
 	position: relative;
-	padding-left: 108px;
-	padding-right: 34px;
+	padding-left: 46px;
+	padding-right: 20px;
 	min-height: 42px;
 	display: -moz-box;
 	display: flex;
