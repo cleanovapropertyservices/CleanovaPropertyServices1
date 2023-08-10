@@ -24,7 +24,7 @@ export default function Sidebar() {
                                 <div className="abs_img" style={{"backgroundImage":"url(img/widget/1.jpg)"}}></div>
                             </div>
                             <div className="bfwe_inner">
-                                <p>Let's get started! Contact us for a free quote on your next home improvement project.</p>
+                                <p>Let's get started! Contact us for a free quote on your next property improvement cleaning.</p>
                                 <Link href="/contact"><a>Request an Estimate</a></Link>
                             </div>
                         </div>

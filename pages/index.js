@@ -351,10 +351,9 @@ export default function Index() {
           <div className="container">
             <div className="cta_holder">
               <div className="title_holder">
-                <h3>We will Make Your Dream Come True</h3>
+                <h3>Let us make your space shine like a mirror!</h3>
                 <p>
-                  We are focused on sustainable business that delivers the best
-                  possible project results.
+                Embark on a journey to pristine living. Book today for a complimentary cleaning assessment.
                 </p>
               </div>
               <div className="link_holder">

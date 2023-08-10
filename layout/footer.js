@@ -104,9 +104,7 @@ export default function Footer() {
                       </div>
                       <div className="textwidget">
                         <p>
-                          We are focused on user-driven outcomes, we strive to
-                          create meaningful connections for users through
-                          considered strategy and innovation.
+                        Specializing in a diverse range of cleaning solutions, Cleanova has continuously evolved since its inception five years ago. With an emphasis on quality, dedication, and comprehensive insurance coverage, we've built a reputation as a trusted local choice in property care.
                         </p>
                       </div>
                     </div>

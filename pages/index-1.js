@@ -263,8 +263,8 @@ export default function Index1() {
             <div className="container">
               <div className="cta_holder">
                 <div className="title_holder">
-                  <h3>We will Make Your Dream Come True</h3>
-                  <p>We are focused on sustainable business that delivers the best possible project results.</p>
+                  <h3>Let us make your space shine like a mirror!</h3>
+                  <p>Embark on a journey to pristine living. Book today for a complimentary cleaning assessment.</p>
                 </div>
                 <div className="link_holder">
                   <Link href="https://industify.frenify.net/1/contact/"><a>Our Responsibility</a></Link>
