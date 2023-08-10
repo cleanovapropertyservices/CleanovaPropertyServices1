@@ -4488,6 +4488,16 @@ blockquote{
 	display: flex;
     flex-direction: row;
 }
+.signature-container {
+    display: block;
+}
+
+.signature {
+    width: 100%;
+    margin-bottom: 20px; /* Add some space between them on mobile */
+	margin-right: -158px;
+}
+
 .fn_cs_about_with_rating .signature{
 	max-width: 270px;
 	padding: 22px 20px 22px 105px;
@@ -4513,6 +4523,23 @@ blockquote{
 	left: 20px;
 	color: #666;
 }
+@media (min-width: 768px) {
+    .signature-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .signature {
+        flex: 1; /* This will make each div take up equal space */
+        margin-right: 20px; /* You can adjust this as needed */
+        margin-bottom: 0; /* Resetting for desktop */
+    }
+
+    .signature:last-child {
+        margin-right:  -159px; /* Ensures the last div doesn't have extra margin on the right */
+    }
+}
+
 .fn_cs_about_with_rating .title_holder{
 	width: 400px;
     min-width: 400px;
