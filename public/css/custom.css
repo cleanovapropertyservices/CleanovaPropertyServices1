@@ -8410,14 +8410,14 @@ blockquote {
 }
 
 .fn_cs_call_to_action .link_holder a:hover {
-	background-color: #d24e1a;
-	color: #fff
+	background-color: #fff;
+	color: #d24e1a
 }
 
 .fn_cs_call_to_action .link_holder a {
 	display: block;
 	text-decoration: none;
-	color: #041230;
+	color: #fff;
 	padding: 0 25px;
 	border-radius: 2px;
 	font-family: Rubik,Sans-serif;
@@ -8426,7 +8426,7 @@ blockquote {
 	text-transform: uppercase;
 	line-height: 50px;
 	letter-spacing: .5px;
-	background-color: #fff
+	background-color: #d24e1a
 }
 
 .fn_cs_call_to_action .title_holder {
