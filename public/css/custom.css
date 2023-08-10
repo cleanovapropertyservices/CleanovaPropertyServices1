@@ -8324,8 +8324,8 @@ blockquote {
 	}
 
 	.fn_cs_about_with_rating .rating_holder {
-			top: 40px;
-			right: 60px
+			top: 0px;
+			right: 26px
 	}
 
 	.fn_cs_about_with_rating .bottom_section {
@@ -8333,7 +8333,7 @@ blockquote {
 	}
 }
 
-@media(max-width: 768px) {
+/*@media(max-width: 768px) {
 	.fn_cs_about_with_rating .badge_left {
 			min-height:inherit;
 			width: 100%;
@@ -8360,7 +8360,7 @@ blockquote {
 	.fn_cs_about_with_rating .bottom_section p {
 			font-size: 16px
 	}
-}
+}*/
 
 .fn_cs_call_to_action,.fn_cs_call_to_action .cta_holder {
 	width: 100%;

@@ -4810,13 +4810,17 @@ blockquote{
 	.fn_cs_about_with_rating .rating_holder{top: 40px;right: 60px;}
 	.fn_cs_about_with_rating .bottom_section{padding: 40px;}
 }
-@media(max-width: 768px){
+/*@media(max-width: 768px){
 	.fn_cs_about_with_rating .badge_left{min-height: inherit; width: 100%;padding-right: 100px;}
 	.fn_cs_about_with_rating .badge_right{display: none;}
 	.fn_cs_about_with_rating .top_section{padding: 20px;padding-bottom: 22px;}
 	.fn_cs_about_with_rating .rating_holder{right: 40px;top: 20px;}
 	.fn_cs_about_with_rating .bottom_section{padding: 30px 20px;}
 	.fn_cs_about_with_rating .bottom_section p{font-size: 16px;}
+}*/
+
+@media (max-width: 768px) {
+	.fn_cs_about_with_rating .top_section{padding: 0px;}
 }
 /*------------------------------------------------------------------*/
 /*	Shortcode #6 CALL TO ACTION
