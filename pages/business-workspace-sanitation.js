@@ -6,6 +6,7 @@ import Title from '../layout/title'
 
 
 export default function Services() {
+
 	return (
 		<>
 			<Title title='Services' />

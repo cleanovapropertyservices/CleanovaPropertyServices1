@@ -1,8 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { FileDoc, FilePdf, FileZip } from '../public/svg/icon'
+import useDownloader from 'react-use-downloader'
 
 export default function Sidebar() {
+	const { size, elapsed, percentage, download,
+		cancel, error, isInProgress } = useDownloader();
+
     return (
         <>
             <div className="industify_fn_sidebar">
@@ -35,7 +39,7 @@ export default function Sidebar() {
                                 <ul>
                                     <li>
                                         <div className="br_item">
-                                            <Link href="#"><a download=""></a></Link>
+                                            <a href='/favicon.pdf' download="favicon.pdf"></a>
                                             <span className="icon">
                                                 <FilePdf className="fn__svg" />
                                             </span>
@@ -44,16 +48,17 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <div className="br_item">
+                                            <a href='/favicon.png' download="favicon.png"></a>
                                             <Link href="#"><a download=""></a></Link>
                                             <span className="icon">
                                             <FileZip className="fn__svg" />
                                             </span>
-                                            <span className="text">Download .ZIP</span>
+                                            <span className="text">Download Businss card</span>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="br_item">
-                                            <Link href="#"><a download=""></a></Link>
+                                            <a href='/favicon.doc' download="favicon.doc"></a>
                                             <span className="icon">
                                             <FileDoc className="fn__svg" />
                                             </span>
