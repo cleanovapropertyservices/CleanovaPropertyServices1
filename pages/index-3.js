@@ -21,7 +21,7 @@ const sixfoldGallery6 = "img/sixfold-gallery/6.jpg"
 export default function Index3() {
 	return (
 		<>
-		<Title title='Home Delta' />
+		<Title title='Home' />
 			<Layout className={"nobglight"}>
 				<Home3Slider/>
 

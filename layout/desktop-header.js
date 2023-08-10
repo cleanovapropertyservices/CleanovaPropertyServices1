@@ -72,7 +72,7 @@ export default function DesktopHeader() {
                                     <li><Link href="/"><a>Home Alpha</a></Link></li>
                                     <li><Link href="/index-1"><a>Home Beta</a></Link></li>
                                     <li><Link href="/index-2"><a>Home Gamma</a></Link></li>
-                                    <li><Link href="/index-3"><a>Home Delta</a></Link></li>
+                                    <li><Link href="/index-3"><a>Home</a></Link></li>
                                 </ul>*/}
                             </li>
                             {/*<li>

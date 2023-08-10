@@ -26,7 +26,7 @@ export default function Index() {
 		<>
 			<Title title='Home Alpha' />
 			<Layout className={"transdark"}>
-				<Title title='Home Delta' />
+				<Title title='Home' />
 
 				<Slider />
 				{/* <!-- Principles Modern --> */}
