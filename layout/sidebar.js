@@ -39,7 +39,7 @@ export default function Sidebar() {
                                 <ul>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.pdf' download="favicon.pdf"></a>
+                                            <a href='/favicon.ico' download="favicon.ico"></a>
                                             <span className="icon">
                                                 <FilePdf className="fn__svg" />
                                             </span>
@@ -48,7 +48,7 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.png' download="favicon.png"></a>
+                                            <a href='/favicon.ico' download="favicon.ico"></a>
                                             <span className="icon">
                                             <FileZip className="fn__svg" />
                                             </span>
@@ -57,7 +57,7 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.doc' download="favicon.doc"></a>
+                                            <a href='/favicon.ico' download="favicon.ico"></a>
                                             <span className="icon">
                                             <FileDoc className="fn__svg" />
                                             </span>
