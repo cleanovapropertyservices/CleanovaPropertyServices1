@@ -9520,8 +9520,7 @@ blockquote{
 	}
 }
 
-.popright {
-  display: flex;
+.popright-container {
   position: fixed;
   top: 80vh;
   right: 0;
@@ -9531,17 +9530,30 @@ blockquote{
   border-radius: 20px 0 0 20px;
   transition: transform .3s ease-in-out;
   z-index: 1000;
+
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.popright {
+	display: flex;
+	
 }
 
 @media(max-width: 768px){
 	.popright {
 		flex-direction: column;
+	}
+
+	.popright-container {
 		top: 65%;
+		max-width: 120px;
 	}
 	
 	.popright a {
-		height: 80px !important;
-		width: 80px !important;
+		height: 70px !important;
+		width: 70px !important;
 	}
 }
 
@@ -9551,7 +9563,7 @@ blockquote{
   height: 100px;
 }
 
-.popright.hide {
+.popright-container.hide {
   transform: translateX(100%);
 }
 
