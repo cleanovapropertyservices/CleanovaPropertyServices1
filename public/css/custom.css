@@ -2829,6 +2829,12 @@ a:focus {
 	box-sizing: border-box
 }
 
+@media (max-width: 720px) {
+	.call {
+		display: none;
+	}
+}
+
 .industify_fn_wrapper_all {
 	width: 100%;
 	float: left;
@@ -3036,34 +3042,28 @@ a:focus {
 }
 
 .industify_fn_mobilemenu_wrap .m_toll_free .img_holder {
-	position: absolute;
 	width: 42px;
 	height: 42px;
 	border-radius: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50%;
-	left: 43px
 }
 
 .industify_fn_mobilemenu_wrap .m_toll_free .shape1:after {
 	content: "";
-	position: absolute;
 	top: 9px;
 	bottom: 9px;
 	right: 0;
-	left: 23px;
 	background-color: #316397;
 	z-index: 1
 }
 
 .industify_fn_mobilemenu_wrap .m_toll_free .shape1:before {
 	content: "";
-	position: absolute;
 	top: 0;
 	bottom: 0;
 	right: 0;
-	left: 46px;
 	background-color: rgba(255,255,255,.1);
 	z-index: 1
 }
@@ -3087,7 +3087,14 @@ a:focus {
 @media(max-width: 768px) {
 	.industify_fn_mobilemenu_wrap .m_toll_free .tf_in {
 			padding-right:20px;
-			padding-left: 46px
+			padding-left: 20px;
+			gap: 15px;
+	}
+
+	.industify_fn_mobilemenu_wrap .m_toll_free .tf_in .img_holder {
+		background-color: rebeccapurple;
+		position: relative;
+		left: 0;
 	}
 }
 
@@ -3501,7 +3508,8 @@ a:focus {
 	display: flex;
 	-moz-box-align: center;
 	align-items: center;
-	z-index: 5
+	z-index: 5;
+	gap: 20px;
 }
 
 .industify_fn_header .toll_free .tf_in p {
@@ -3510,11 +3518,11 @@ a:focus {
 	font-family: Rubik;
 	font-size: 18px;
 	letter-spacing: .5px;
-	font-style: italic
+	font-style: italic;
+	gap: 20px;
 }
 
 .industify_fn_header .toll_free .img_holder {
-	position: absolute;
 	width: 42px;
 	height: 42px;
 	border-radius: 100%;
@@ -3786,9 +3794,6 @@ a:focus {
 			padding: 0 20px 0 46px
 	}
 
-	.industify_fn_header .toll_free .img_holder,.industify_fn_header .toll_free .tf_in p span {
-			display: none
-	}
 
 	.lang_switcher {
 			margin-right: 10px

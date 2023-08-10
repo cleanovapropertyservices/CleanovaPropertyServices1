@@ -3,6 +3,7 @@ import MetisMenu from 'metismenujs';
 import Link from 'next/link'
 import { Facebook, Instagram, Linkedin, Twitter, Vk } from '../public/svg/social/IconSocial';
 
+const background = "/img/about/supportContact.png"
 
 export default function MobileHeader() {
 
@@ -65,8 +66,8 @@ export default function MobileHeader() {
 						<span className="shape2"></span>
 						<span className="shape3"></span>
 						<div className="tf_in">
-							<div className="img_holder" style={{ "backgroundImage": "url(img/supportContact.png)" }}></div>
-							<p><span>Call Now: <a href='tel:+64220455048'>(+64) 220-455-048</a></span></p>
+							<div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
+							<p><span><span className='call'>Call Now:</span> <a href='tel:+64220455048'>(+64) 220-455-048</a></span></p>
 						</div>
 					</div>
 				</div>

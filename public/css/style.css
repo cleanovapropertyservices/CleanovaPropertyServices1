@@ -720,7 +720,6 @@ a:focus {
 }
 
 .industify_fn_header .toll_free .img_holder{
-	position: absolute;
 	width: 42px;
 	height: 42px;
 	border-radius: 100%;
@@ -930,8 +929,7 @@ a:focus {
 	.industify_fn_toppanel{padding: 0 20px;}
 	.industify_fn_header .menu_logo{margin: 0 20px;}
 	.industify_fn_header .toll_free .tf_in{padding: 0 20px 0 46px;}
-	.industify_fn_header .toll_free .tf_in p span,
-	.industify_fn_header .toll_free .img_holder{display: none;}
+	.industify_fn_header .toll_free .tf_in p span{display: none;}
 	.lang_switcher{margin-right: 10px;}
 }
 /*------------------------------------------------------------------*/
