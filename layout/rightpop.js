@@ -1,7 +1,7 @@
 export default function PopRight({ show }) {
   return (
     <div className="popright-container">
-      <span>Message us here:</span>
+      <span>Chat Now!</span>
       <div className={`popright ${show ? "show" : "hide"}`}>
         <a href="https://wa.me/+64220455048 ">
           <img className="" src="/img/WhatAppGif.gif" />

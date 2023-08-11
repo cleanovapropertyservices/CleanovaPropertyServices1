@@ -119,7 +119,7 @@ export default function ServiceSingle3() {
 								{/* Service List  */}
 								<div className="service_list_as_function">
 									<div className="title">
-									<button className="backButton" onClick={() => router.back()}>&larr;Back</button>
+									<button className="backButton" onClick={() => router.back()}>🔙</button>
 										<h3>Full list of Services</h3>
 									</div>
 									<div className="list_holder">

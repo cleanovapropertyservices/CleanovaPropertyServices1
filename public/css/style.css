@@ -1411,7 +1411,7 @@ a:focus {
     border-radius: 4px;  /* Rounded corners */
     cursor: pointer;  /* Changes the cursor to a hand when hovering */
     font-weight: bold;  /* Bold text */
-    font-size: 16px;  /* Font size */
+    font-size: 29px;  /* Font size */
     transition: background-color 0.3s, color 0.3s;  /* Transition for hover effect */
 }
 
@@ -1434,7 +1434,7 @@ a:focus {
 	border-top-color: rgba(255,255,255,.1);
 }
 .service_list_as_function .title h3{
-	margin: 0;
+	margin: 16px;
 	padding: 7px;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -9542,10 +9542,11 @@ blockquote{
   border-radius: 20px 0 0 20px;
   transition: transform .3s ease-in-out;
   z-index: 1000;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  text-align:center;
 
-	color: #FFFFFF;
-	font-weight: 700;
-	font-size: 18px;
 }
 
 .popright {
