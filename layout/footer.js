@@ -179,11 +179,11 @@ export default function Footer() {
               </div>
               <div className="footer_copyright">
                 <p>
-                  &copy; 1934 – 2021 Industify, LCC. All rights reserved. Theme
+                  &copy; 2018 – 2023 Cleanova Property Services. All rights reserved. Theme
                   has been developed by{" "}
-                  <Link href="https://themeforest.net/user/trendycoder">
+                  <Link href="https://Creative3bx.com">
                     <a target="_blank" rel="noreferrer">
-                      TrendyCoder
+                      Creative 3Bx IT Services
                     </a>
                   </Link>
                 </p>
