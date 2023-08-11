@@ -10,11 +10,11 @@ import 'swiper/css/pagination';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 // Images imported
-const slider1 = "/img/slider/commercial-cleaning.jpg"
-const slider2 = "/img/slider/residential-cleaning.jpg"
-const slider3 = "/img/slider/carpet-cleaning.jpg"
-const slider4 = "/img/slider/4.jpg"
-const slider5 = "/img/slider/5.jpg"
+const slider1 = "/img/slider/commercial-cleaning.png"
+const slider2 = "/img/slider/residential-cleaning.png"
+const slider3 = "/img/slider/SpecializedCleaningSolutions.png"
+const slider4 = "/img/slider/AdditionalCleaningServices.png"
+const slider5 = "/img/slider/extraCleaning.png"
 
 
 export default function HomeSlider() {
@@ -57,7 +57,7 @@ export default function HomeSlider() {
                                 <div className="inner">
                                     <div className="in">
                                         <h3><span>Commercial Cleaning</span></h3>
-                                        <div className="desc"><span>Achieving this successfully calls for a vision of what can be and a distinct ability to identify opportunities for salvaging elements.</span></div>
+                                        <div className="desc"><span>Cleanova Property Services delivers customized commercial cleaning solutions with a commitment to excellence. Your workspace's shine and your satisfaction are our top priorities.</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export default function HomeSlider() {
                                 <div className="inner">
                                     <div className="in">
                                         <h3><span>Residential Cleaning</span></h3>
-                                        <div className="desc"><span>Industify was the first company to develop methods and equipment for the successful deep compaction of soil in the 1930s</span></div>
+                                        <div className="desc"><span>Cleanova Property Services understands the importance of a clean and comfortable home. With a legacy built on expertise and customer satisfaction, we offer residential cleaning services that transform living spaces, ensuring every corner radiates freshness and tranquility.</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,20 @@ export default function HomeSlider() {
                                 <div className="inner">
                                     <div className="in">
                                         <h3><span>Speciality Cleaning</span></h3>
-                                        <div className="desc"><span>In addition to our large, ground up projects, we accommodate small to modest sized projects for our customers.</span></div>
+                                        <div className="desc"><span>Cleanova Property Services specializes in transformative cleaning solutions, from deep carpet refreshes to meticulous sterilizations. Our dedicated approach ensures each space feels renewed, reflecting our unwavering commitment to excellence.</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="item">
+                            <div className="img_holder" style={{ "backgroundImage": `url(${slider4})` }}></div>
+                            <div className="title_holder">
+                                <div className="inner">
+                                    <div className="in">
+                                        <h3><span>Additional Cleaning Services</span></h3>
+                                        <div className="desc"><span>At Cleanova, we delve deeper. From rejuvenating vehicle interiors to tackling pest sanitization, our additional services ensure every corner of your environment is impeccably addressed and revitalized.</span></div>
                                     </div>
                                 </div>
                             </div>
