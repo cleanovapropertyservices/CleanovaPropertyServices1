@@ -21,7 +21,7 @@ export default function Sidebar() {
                                 <span className="helper4"></span>
                                 <span className="helper5"></span>
                                 <span className="helper6"></span>
-                                <div className="abs_img" style={{"backgroundImage":"url(img/widget/1.jpg)"}}></div>
+                                <div className="abs_img" style={{"backgroundImage":"url(img/widget/1.png)"}}></div>
                             </div>
                             <div className="bfwe_inner">
                                 <p>Let's get started! Contact us for a free quote on your next property improvement cleaning.</p>
