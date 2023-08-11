@@ -3,9 +3,10 @@ import React from 'react'
 import Layout from '../layout/layout'
 import Sidebar from '../layout/sidebar'
 import Title from '../layout/title'
-
+import { useRouter } from 'next/router';
 
 export default function Services() {
+	const router = useRouter();
 	return (
 		<>
 			<Title title='Services' />
@@ -178,6 +179,7 @@ export default function Services() {
 								{/* Service List */}
 								<div className="service_list_as_function">
 									<div className="title">
+									<button className="backButton" onClick={() => router.back()}>&larr;Back</button>
 										<h3>Full list of Services</h3>
 									</div>
 									<div className="list_holder">

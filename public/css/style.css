@@ -1403,14 +1403,26 @@ a:focus {
 .service_list_as_function li a:hover:after{
 	width: 60px;
 }
-.service_list_as_function .title{
-	width: 100%;
-	float: left;
-	clear: both;
-	padding: 29px 30px 26px 30px;
-	background-color: rgba(255,255,255,.1);
-	position: relative;
-	margin-bottom: 12px;
+.service_list_as_function .backButton {
+    background-color: transparent;  /* Transparent background to fit with the title's design */
+    color: #FFF;  /* White text */
+    border: 1px solid #FFF;  /* White border */
+    padding: 5px 2px;  /* Vertical and horizontal spacing */
+    border-radius: 4px;  /* Rounded corners */
+    cursor: pointer;  /* Changes the cursor to a hand when hovering */
+    font-weight: bold;  /* Bold text */
+    font-size: 16px;  /* Font size */
+    transition: background-color 0.3s, color 0.3s;  /* Transition for hover effect */
+}
+
+.service_list_as_function .backButton:hover {
+    background-color: #FFF;  /* White background on hover */
+    color: #d24e1a;  /* Text color to match the container's background */
+}
+.service_list_as_function .title {
+    display: flex;
+    align-items: center;  /* To vertically align the title and button */
+    justify-content: space-between;  /* Distributes the space between the title and button */
 }
 .service_list_as_function .title:after{
 	content: '';
@@ -1423,7 +1435,7 @@ a:focus {
 }
 .service_list_as_function .title h3{
 	margin: 0;
-	padding: 0;
+	padding: 7px;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #eee;

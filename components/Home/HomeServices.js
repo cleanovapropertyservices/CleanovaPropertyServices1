@@ -55,8 +55,8 @@ export default function HomeServices() {
             <div className="fn_cs_service_query" data-mobile="disable" data-column-count="4">
                 <div className="top_bar">
                     <div className="t_inner">
-                        <h3>Our Industries</h3>
-                        <span>The automotive industry is the technological trendsetter among manufacturing industries.</span>
+                        <h3>Our Expertise</h3>
+                        <span>Cleanova Property Services sets the gold standard in the cleaning sector, elevating property care to unparalleled heights.</span>
                         <div className="owl_control">
                             <div className="fn_prev"></div>
                             <div className="fn_next"></div>
