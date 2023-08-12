@@ -24,7 +24,7 @@ export default function MobileHeader() {
 						<div className="industify_fn_social_list">
 							<ul>
 								<li>
-									<Link href="#"><a target="_blank" rel="noreferrer">
+									<Link href="https://www.facebook.com/cleaningco.site"><a target="_blank" rel="noreferrer">
 										<Facebook className="fn__svg" />
 									</a></Link>
 								</li>
@@ -67,7 +67,7 @@ export default function MobileHeader() {
 						<span className="shape3"></span>
 						<div className="tf_in">
 							<div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
-							<p><span><span className='call'>Call Now:</span> <a href='tel:+64220455048'>(+64) 220-455-048</a></span></p>
+							<p><span><span className='call'>Call Now:</span> <a href='tel:+64223993001'>(+64) 223-993-001</a></span></p>
 						</div>
 					</div>
 				</div>
@@ -92,7 +92,7 @@ export default function MobileHeader() {
 						<nav >
 							<ul className="metismenu" id="metismenu">
 								<li>
-									<Link href="#"><a>Home</a></Link>
+									<Link href="/"><a>Home</a></Link>
 									{/*<ul>
 										<li><Link href="/"><a>Home Alpha</a></Link></li>
 										<li><Link href="/index-1"><a>Home Beta</a></Link></li>
