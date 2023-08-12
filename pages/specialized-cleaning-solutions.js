@@ -43,11 +43,11 @@ export default function Services() {
 										<div className="item" id="rug-carpet-deep-clean">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/carpet-cleaning.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/SpecializedCleaningSolutions.png)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href=""><a>Rug and Carpet Deep Clean</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<h3><Link href="#"><a>Rug and Carpet Deep Clean</a></Link></h3>
+													<p>G'day to your carpets! At Cleanova, we give your rugs and carpets a thorough Aussie refresh, reaching deep into the fibres to lift out stubborn dirt and stains. Leave it to us, and we'll make sure your flooring looks and feels brand spanking new.</p>
 												</div>
 											</div>
 										</div>
@@ -59,8 +59,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/8.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-8"><a>Furniture Upholstery Freshening</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<h3><Link href="#"><a>Furniture Upholstery Freshening</a></Link></h3>
+													<p>Dusty old couches? No worries! We breathe new life into your furniture, ensuring every lounge, chair, and sofa in your home gets a proper spruce up. With Cleanova, your furnishings will feel as refreshing as a cool breeze on a hot summer's day.</p>
 												</div>
 											</div>
 										</div>
@@ -72,8 +72,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Comprehensive Springtime Cleaning</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="#"><a>Comprehensive Springtime Cleaning</a></Link></h3>
+													<p>Spring in Oz means one thing - a proper clean-up! We tackle every nook and cranny, ensuring your home shines brighter than the Southern Cross. With our springtime cleaning, every corner of your space will feel rejuvenated and ready for the year ahead.</p>
 												</div>
 											</div>
 										</div>
@@ -85,8 +85,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>In-Depth Sanitization and Sterilization</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="#"><a>In-Depth Sanitization and Sterilization</a></Link></h3>
+													<p>Keeping things clean as a whistle is essential, especially these days. Our team goes the extra mile, ensuring that germs and bacteria don't stand a chance. We're all about giving you that peace of mind in true blue Aussie style.</p>
 												</div>
 											</div>
 										</div>
@@ -98,8 +98,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s10.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Thorough Bathroom Scrub-down</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="#"><a>Thorough Bathroom Scrub-down</a></Link></h3>
+													<p>From the taps to the tiles, we give your bathroom the makeover it deserves. Say goodbye to soap scum and hello to a sparkling space. After we're done, your bathroom will shine brighter than the sun over Bondi Beach.</p>
 												</div>
 											</div>
 										</div>
@@ -111,8 +111,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Floor Maintenance and Care</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="#"><a>Floor Maintenance and Care</a></Link></h3>
+													<p>Floors cop a lot, especially down under with our love for the outdoors. Whether it's timber, tile, or anything in between, we ensure they get the proper care, making them gleam and last longer. Trust Cleanova to keep the ground beneath your feet in top-notch condition.</p>
 												</div>
 											</div>
 										</div>
@@ -124,8 +124,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Maintenance Assistance for Facilities</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="#"><a>Maintenance Assistance for Facilities</a></Link></h3>
+													<p>Managing a facility in Australia? We've got your back. From routine checks to helping with upkeep, our crew ensures everything runs as smooth as a kangaroo in the outback. With Cleanova, you're in safe and capable hands, mate.</p>
 												</div>
 											</div>
 										</div>
