@@ -21,14 +21,14 @@ const services = [
         link:"/business-workspace-sanitation",
         img: "img/thumb/480-700.jpg",
         bg: "img/service/single/s1.jpg",
-        title:"Business and Workspace Sanitation"
+        title:"Commercial And Office Cleaning"
 
     },
     {
         link:"/home-cleaning-services",
         img: "img/thumb/480-700.jpg",
         bg: "/img/service/single/s9.jpg",
-        title:"Home Cleaning Services"
+        title:"Residential Cleaning"
 
     },
     {

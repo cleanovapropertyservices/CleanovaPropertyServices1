@@ -47,7 +47,7 @@ export default function Services() {
 													<Link href="/business-workspace-sanitation"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link></h3>
+													<h3><Link href="/business-workspace-sanitation"><a>Commercial And Office Cleaning</a></Link></h3>
 													<p>Elevate workplace hygiene with our professional care. At the forefront of our mission is the protection of your team, ensuring a pristine and health-conscious environment. We believe in boosting your productivity by maintaining a thoroughly sanitized workspace.</p>
 												</div>
 												<div className="read_more">
@@ -64,8 +64,8 @@ export default function Services() {
 													<Link href="/home-cleaning-services"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link></h3>
-													<p>Breathe new life into your living space with our comprehensive home cleaning services. Our expert cleaners are dedicated to making homes sparkle from floor to ceiling, ensuring that every corner gleams. Restore the comfort and freshness you deserve in your personal sanctuary.</p>
+													<h3><Link href="/home-cleaning-services"><a>Residential Cleaning</a></Link></h3>
+													<p>Breathe new life into your living space with our comprehensive Residential Cleaning. Our expert cleaners are dedicated to making homes sparkle from floor to ceiling, ensuring that every corner gleams. Restore the comfort and freshness you deserve in your personal sanctuary.</p>
 												</div>
 												<div className="read_more">
 													<Link href="/home-cleaning-services"><a>Read More</a></Link>
@@ -136,8 +136,8 @@ export default function Services() {
 									</div>
 									<div className="list_holder">
 										<ul>
-											<li><Link href="/business-workspace-sanitation"><a>Business and Workspace Sanitation</a></Link></li>
-											<li><Link href="/home-cleaning-services"><a>Home Cleaning Services</a></Link></li>
+											<li><Link href="/business-workspace-sanitation"><a>Commercial And Office Cleaning</a></Link></li>
+											<li><Link href="/home-cleaning-services"><a>Residential Cleaning</a></Link></li>
 											<li><Link href="/specialized-cleaning-solutions"><a>Specialized Cleaning Solutions</a></Link></li>
 											<li><Link href="/additional-cleaning-services"><a>Additional Cleaning Services</a></Link></li>
 										</ul>

@@ -16,12 +16,12 @@ export default function Services() {
 				<div className="industify_fn_pagetitle">
 					<div className="container">
 						<div className="title_holder">
-							<h3>Business and Workspace Sanitation</h3>
+							<h3>Commercial And Office Cleaning</h3>
 							<div className="industify_fn_breadcrumbs">
 								<ul>
 									<li><Link href="/"><a title="Home">Home</a></Link></li>
 									<li className="separator"><span></span></li>
-									<li><span className="bread-current"> Business and Workspace Sanitation</span></li>
+									<li><span className="bread-current"> Commercial And Office Cleaning</span></li>
 								</ul>
 							</div>
 						</div>
@@ -71,7 +71,7 @@ export default function Services() {
 										<div className="item" id="post-construction-cleanup">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s3.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s3.png)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
@@ -99,7 +99,7 @@ export default function Services() {
 										<div className="item" id="public-area-maintenance-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s5.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/slider/commercial-cleaning.png)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
@@ -113,7 +113,7 @@ export default function Services() {
 										<div className="item" id="transparent-surface-sanitation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s6.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s6.png)" }}></div>
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">

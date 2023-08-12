@@ -105,7 +105,7 @@ export default function MobileHeader() {
 									<Link href="/services"><a className="has-arrow">OUR SERVICES</a></Link>
 									<ul>
 										<li>
-											<Link href="#"><a className="has-arrow">Business and Workspace Sanitation</a></Link>
+											<Link href="#"><a className="has-arrow">Commercial And Office Cleaning</a></Link>
 											<ul className='ss'>
 												<li><Link scroll={false} href="/business-workspace-sanitation#scrubbing-dusting-offices">Scrubbing and Dusting of Offices</Link></li>
 												<li><Link scroll={false} href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
@@ -116,14 +116,14 @@ export default function MobileHeader() {
 											</ul>
 										</li>
 										<li>
-											<Link href="#"><a className="has-arrow">Home Cleaning Services</a></Link>
+											<Link href="#"><a className="has-arrow">Residential Cleaning</a></Link>
 											<ul className='ss'>
 												<li><Link scroll={false} href="/home-cleaning-services#lease-property-sanitation">Lease Property Sanitation</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#post-occupancy-cleanup">Post-Occupancy Cleanup</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#pre-occupancy-scrub-down-inspection">Pre-Occupancy Scrub-down and Inspection</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#cleaning-services-before-property-sale">Cleaning Services before Property Sale</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#detailed-cleaning-kitchens-bathrooms-ovens">Detailed Cleaning of Kitchens, Bathrooms, and Ovens</Link></li>
-												<li><Link scroll={false} href="/home-cleaning-services#wall-ceiling-sanitation">Wall and Ceiling Sanitation</Link></li>
+												<li><Link scroll={false} href="/home-cleaning-services#wall-ceiling-sanitation">Wall and Ceiling Cleaning</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#mildew-mould-remediation">Mildew and Mould Remediation</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#house-deck-pathway-power-washing">House, Deck, and Pathway Power Washing</Link></li>
 												<li><Link scroll={false} href="/home-cleaning-services#transparent-surface-cleanup">Transparent Surface (Window) Cleanup</Link></li>
