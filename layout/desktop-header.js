@@ -88,7 +88,7 @@ export default function DesktopHeader() {
                                             <li><Link scroll={false} href="/business-workspace-sanitation#sanitation-shared-spaces">Sanitation of Shared Spaces</Link></li>
                                             <li><Link scroll={false} href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
                                             <li><Link scroll={false} href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
-                                            <li><Link scroll={false} href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
+                                            <li><Link scroll={false} href="/business-workspace-sanitation#public-area-maintenance-sanitation">Cleaning Services for Malls and Stores</Link></li>
                                             <li><Link scroll={false} href="/business-workspace-sanitation#transparent-surface-sanitation">Interior & Exterior Window Cleaning</Link></li>
                                         </ul>
                                     </li>

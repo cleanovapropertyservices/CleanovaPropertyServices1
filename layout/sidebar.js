@@ -39,7 +39,7 @@ export default function Sidebar() {
                                 <ul>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.ico' download="favicon.ico"></a>
+                                            <a href='/CleanovaPropertyServicesPDF.pdf' download="Cleanova Property Services"></a>
                                             <span className="icon">
                                                 <FilePdf className="fn__svg" />
                                             </span>
@@ -48,7 +48,7 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.ico' download="favicon.ico"></a>
+                                            <a href='/businessCard.png' download="Business Card"></a>
                                             <span className="icon">
                                             <FileZip className="fn__svg" />
                                             </span>
@@ -57,7 +57,7 @@ export default function Sidebar() {
                                     </li>
                                     <li>
                                         <div className="br_item">
-                                            <a href='/favicon.ico' download="favicon.ico"></a>
+                                            <a href='/CleanovaPropertyServices.docx' download="Cleanova Property Services"></a>
                                             <span className="icon">
                                             <FileDoc className="fn__svg" />
                                             </span>

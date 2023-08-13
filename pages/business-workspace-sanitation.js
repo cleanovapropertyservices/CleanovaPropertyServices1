@@ -103,7 +103,7 @@ export default function Services() {
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="#"><a>Public Area Maintenance and Sanitation</a></Link></h3>
+													<h3><Link href="#"><a>Cleaning Services for Malls and Stores</a></Link></h3>
 													<p>Shopping experiences are elevated in clean environments. Our cleaning solutions for malls and stores ensure shiny floors, dust-free surfaces, and a pleasant ambiance that invites and retains customers.</p>
 												</div>
 											</div>
@@ -146,7 +146,7 @@ export default function Services() {
 											<li><Link href="#sanitation-shared-spaces" scroll={false}><a>Sanitation of Shared Spaces</a></Link></li>
 											<li><Link href="#post-construction-cleanup" scroll={false}><a>Post-Construction Cleanup</a></Link></li>
 											<li><Link href="#cleaning-services-educational-institutions" scroll={false}><a>Cleaning Services for Educational Institutions</a></Link></li>
-											<li><Link href="#public-area-maintenance-sanitation" scroll={false}><a>Public Area Maintenance and Sanitation</a></Link></li>
+											<li><Link href="#public-area-maintenance-sanitation" scroll={false}><a>Cleaning Services for Malls and Stores</a></Link></li>
 											<li><Link href="#transparent-surface-sanitation" scroll={false}><a>Interior & Exterior Window Cleaning</a></Link></li>
 										</ul>
 									</div>

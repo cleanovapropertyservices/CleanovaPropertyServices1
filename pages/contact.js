@@ -277,8 +277,7 @@ export default function Contact() {
                           <div className="content_holder">
                             <ul>
                               <li>
-                                92 Constable Street, Newtown, Wellington, New
-                                Zealand
+                              27 Hukatai Street, Elsdon, Porirua, 5022, NZ
                               </li>
                               <li>Phone: +64 223-993-001</li>
                               <li>
@@ -306,8 +305,7 @@ export default function Contact() {
                           <div className="content_holder">
                             <ul>
                               <li>
-                                14-12 Tacoma Drive, Tōtara Park, Upper Hutt, New
-                                Zealand
+                              27 Hukatai Street, Elsdon, Porirua, 5022, NZ
                               </li>
                               <li>Phone: +64 220-455-048</li>
                               <li>
