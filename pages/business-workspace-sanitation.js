@@ -47,7 +47,7 @@ export default function Services() {
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="#"><a>Scrubbing and Dusting of Offices</a></Link></h3>
+													<h3><Link href="#"><a>Office & Workplace Cleaning</a></Link></h3>
 													<p>Maintain a professional and productive workspace with our comprehensive office cleaning solutions. We meticulously scrub and dust every nook and corner, ensuring a pristine environment that boosts employee morale and leaves a lasting impression on visitors.</p>
 												</div>
 											</div>
@@ -117,7 +117,7 @@ export default function Services() {
 													<Link href="#"><a></a></Link>
 												</div>
 												<div className="title">
-													<h3><Link href="#"><a>Transparent Surface (Window) Sanitation</a></Link></h3>
+													<h3><Link href="#"><a>Interior & Exterior Window Cleaning</a></Link></h3>
 													<p>Let the light shine through spotless windows. Our transparent surface sanitation services guarantee streak-free and germ-free windows that not only elevate aesthetics but also promise a safer touch point for users.</p>
 												</div>
 											</div>
@@ -147,7 +147,7 @@ export default function Services() {
 											<li><Link href="#post-construction-cleanup" scroll={false}><a>Post-Construction Cleanup</a></Link></li>
 											<li><Link href="#cleaning-services-educational-institutions" scroll={false}><a>Cleaning Services for Educational Institutions</a></Link></li>
 											<li><Link href="#public-area-maintenance-sanitation" scroll={false}><a>Public Area Maintenance and Sanitation</a></Link></li>
-											<li><Link href="#transparent-surface-sanitation" scroll={false}><a>Transparent Surface (Window) Sanitation</a></Link></li>
+											<li><Link href="#transparent-surface-sanitation" scroll={false}><a>Interior & Exterior Window Cleaning</a></Link></li>
 										</ul>
 									</div>
 								</div>

@@ -46,8 +46,8 @@ export default function Services() {
 													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/s11.jpg)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href=""><a>Vehicle Interior Cleaning</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<h3><Link href=""><a>Vehicle Interior & Exterior Cleaning</a></Link></h3>
+													<p>Hitting the road for a classic road trip? We make sure you're cruising in cleanliness. From dust-laden dashboards to crumby crevices, our team dives in to ensure your ride's interior is as stunning as our coastline. Next stop? A gleaming, grime-free car journey.</p>
 												</div>
 											</div>
 										</div>
@@ -56,11 +56,11 @@ export default function Services() {
 										<div className="item" id="grout-tile-deep-clean">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/8.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/5.png)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-8"><a>Grout and Tile Deep Clean</a></Link></h3>
-													<p>Our manufacturing services provide assurance to clients that their people, processes, and products are as safe and efficient as possible. From logistics and compliance, to</p>
+													<h3><Link href="/service-single-8"><a>Water Blasters</a></Link></h3>
+													<p>Tough stains and grime don't stand a chance against our high-pressure water blasters. Whether it's your driveway that's seen one too many barbies or walls stained by unpredictable weather, we tackle it all, leaving surfaces looking as pristine as the waters of the Whitsundays.</p>
 												</div>
 											</div>
 										</div>
@@ -69,11 +69,11 @@ export default function Services() {
 										<div className="item" id="garage-cleanup-organisation">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.png)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Garage Cleanup and Organisation</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="/service-single-7"><a>Upholstery cleaning</a></Link></h3>
+													<p>Your favourite armchair or family sofa deserves a touch of TLC. We delve deep into the fabric, eradicating dirt and refreshing your furnishings. Post-Cleanova treatment, your upholstery will feel as inviting as a warm evening by the campfire.</p>
 												</div>
 											</div>
 										</div>
@@ -82,11 +82,11 @@ export default function Services() {
 										<div className="item" id="garden-shed-outdoor-furniture-cleaning">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/9.png)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href="/service-single-7"><a>Garden Shed and Outdoor Furniture Cleaning</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href="/service-single-7"><a>Restoration Cleaning</a></Link></h3>
+													<p>Got a space that's seen better days? Our restoration cleaning services are the ultimate facelift. Whether it's old estates or spaces tarnished by time, we renew and rejuvenate, ensuring every corner shines with its former glory, just like the golden sands at sunrise.</p>
 												</div>
 											</div>
 										</div>
@@ -95,11 +95,11 @@ export default function Services() {
 										<div className="item" id="pest-dropping-cleanup-sanitization">
 											<div className="item_in">
 												<div className="img_holder">
-													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/7.jpg)" }}></div>
+													<div className="img_abs" style={{ "backgroundImage": "url(img/service/single/12.png)" }}></div>
 												</div>
 												<div className="title">
-													<h3><Link href=""><a>Pest Dropping Cleanup and Sanitization</a></Link></h3>
-													<p>Helping our customers go to market and maintain expensive machinery with lubricants, fluids and additives testing plus inspection and certification for technical, performance and lifecycle</p>
+													<h3><Link href=""><a>Mattress cleaning</a></Link></h3>
+													<p>Sleep is essential, especially after a long day enjoying adventure. We ensure your bed is a sanctuary, diving deep into mattresses to remove dust mites and allergens. With Cleanova, you're set for a rest as peaceful as the Outback under a starry night.</p>
 												</div>
 											</div>
 										</div>
@@ -123,11 +123,11 @@ export default function Services() {
 									</div>
 									<div className="list_holder">
 										<ul>
-                      <li><Link scroll={false} href="#vehicle-interior-cleaning">Vehicle Interior Cleaning</Link></li>
-                      <li><Link scroll={false} href="#grout-tile-deep-clean">Grout and Tile Deep Clean</Link></li>
-                      <li><Link scroll={false} href="#garage-cleanup-organisation">Garage Cleanup and Organisation</Link></li>
-                      <li><Link scroll={false} href="#garden-shed-outdoor-furniture-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
-                      <li><Link scroll={false} href="#pest-dropping-cleanup-sanitization">Pest Dropping Cleanup and Sanitization</Link></li>
+                      <li><Link scroll={false} href="#vehicle-interior-cleaning">Vehicle Interior & Exterior Cleaning</Link></li>
+                      <li><Link scroll={false} href="#grout-tile-deep-clean">Water Blasters</Link></li>
+                      <li><Link scroll={false} href="#garage-cleanup-organisation">Upholstery cleaning</Link></li>
+                      <li><Link scroll={false} href="#garden-shed-outdoor-furniture-cleaning">Restoration Cleaning</Link></li>
+                      <li><Link scroll={false} href="#pest-dropping-cleanup-sanitization">Mattress cleaning</Link></li>
 										</ul>
 									</div>
 								</div>

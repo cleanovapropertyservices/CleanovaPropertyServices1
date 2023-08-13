@@ -52,7 +52,7 @@ export default function Sidebar() {
                                             <span className="icon">
                                             <FileZip className="fn__svg" />
                                             </span>
-                                            <span className="text">Download Businss card</span>
+                                            <span className="text">Download Businss Card</span>
                                         </div>
                                     </li>
                                     <li>

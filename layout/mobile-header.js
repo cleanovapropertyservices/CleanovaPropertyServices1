@@ -112,7 +112,7 @@ export default function MobileHeader() {
 												<li><Link scroll={false} href="/business-workspace-sanitation#post-construction-cleanup">Post-Construction Cleanup</Link></li>
 												<li><Link scroll={false} href="/business-workspace-sanitation#cleaning-services-educational-institutions">Cleaning Services for Educational Institutions</Link></li>
 												<li><Link scroll={false} href="/business-workspace-sanitation#public-area-maintenance-sanitation">Public Area Maintenance and Sanitation</Link></li>
-												<li><Link scroll={false} href="/business-workspace-sanitation#transparent-surface-sanitation">Transparent Surface (Window) Sanitation</Link></li>
+												<li><Link scroll={false} href="/business-workspace-sanitation#transparent-surface-sanitation">Interior & Exterior Window Cleaning</Link></li>
 											</ul>
 										</li>
 										<li>
@@ -144,11 +144,11 @@ export default function MobileHeader() {
 										<li>
 											<Link href="#"><a className="has-arrow">Additional Cleaning Services</a></Link>
 											<ul className='ss'>
-													<li><Link scroll={false} href="/additional-cleaning-services#vehicle-interior-cleaning">Vehicle Interior Cleaning</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#vehicle-interior-cleaning">Vehicle Interior & Exterior Cleaning</Link></li>
 													<li><Link scroll={false} href="/additional-cleaning-services#grout-tile-deep-clean">Grout and Tile Deep Clean</Link></li>
-													<li><Link scroll={false} href="/additional-cleaning-services#garage-cleanup-organisation">Garage Cleanup and Organisation</Link></li>
-													<li><Link scroll={false} href="/additional-cleaning-services#garden-shed-outdoor-furniture-cleaning">Garden Shed and Outdoor Furniture Cleaning</Link></li>
-													<li><Link scroll={false} href="/additional-cleaning-services#pest-dropping-cleanup-sanitization">Pest Dropping Cleanup and Sanitization</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#garage-cleanup-organisation">Upholstery cleaning</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#garden-shed-outdoor-furniture-cleaning">Restoration Cleaning</Link></li>
+													<li><Link scroll={false} href="/additional-cleaning-services#pest-dropping-cleanup-sanitization">Mattress cleaning</Link></li>
 											</ul>
 										</li>
 									</ul>
