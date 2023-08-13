@@ -4857,7 +4857,13 @@ blockquote{
 }*/
 
 @media (max-width: 768px) {
+	.fn_cs_about_with_rating .badge_left{min-height: inherit; width: 100%;padding-right: 100px;}
 	.fn_cs_about_with_rating .top_section{padding: 0px;}
+	/* .fn_cs_about_with_rating .title_holder p {
+        padding: 23px;
+        margin: 0 0 28px;
+        margin-left: -15px;
+    } */
 }
 /*------------------------------------------------------------------*/
 /*	Shortcode #6 CALL TO ACTION
