@@ -31,7 +31,7 @@ export default function DesktopHeader() {
 									</a></Link>
 								</li>
 								<li>
-									<Link href="#"><a target="_blank" rel="noreferrer">
+									<Link href="https://twitter.com/CleanovaPS"><a target="_blank" rel="noreferrer">
 										<Twitter className="fn__svg" />
 									</a></Link>
 								</li>
@@ -46,7 +46,7 @@ export default function DesktopHeader() {
 									</a></Link>
 								</li> */}
 								<li>
-									<Link href="#"><a target="_blank" rel="noreferrer">
+									<Link href="https://www.linkedin.com/in/cleanova-property-services-6605aa288/"><a target="_blank" rel="noreferrer">
 										<Linkedin className="fn__svg" />
 									</a></Link>
 								</li>

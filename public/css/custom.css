@@ -8015,10 +8015,12 @@ blockquote {
 	margin: 0 0 26px
 }
 @media (max-width: 768px) {
-	.fn_cs_about_with_rating .title_holder p {
-        padding: 23px;
-        margin: 0 0 28px;
-        margin-left: -15px;
+    .fn_cs_about_with_rating .title_holder p {
+		padding: 60px;
+		margin: 0 0 -88px;
+		font-size: 14px;
+		line-height: 1.4;
+		margin-left: -55px;
     }
 }
 
@@ -8067,6 +8069,14 @@ blockquote {
 	position: relative;
 	padding: 17px 20px 8px
 }
+@media (max-width: 768px) {
+	.fn_cs_about_with_rating .badge_left {
+		width: 50%;
+		float: left;
+		position: relative;
+		padding: 4px 20px 8px
+	}
+}
 
 .fn_cs_about_with_rating .badge_right {
 	left: 50%;
@@ -8084,6 +8094,14 @@ blockquote {
 	padding: 0;
 	font-size: 18px;
 	letter-spacing: 0
+}
+@media (max-width: 768px) {
+	.fn_cs_about_with_rating .badge_left h3 {
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+		letter-spacing: 0
+	}
 }
 
 .fn_cs_about_with_rating .badge_left .b_title {
@@ -8130,6 +8148,16 @@ blockquote {
 	text-transform: uppercase;
 	color: #d24e1a;
 	font-family: Rubik
+}
+@media (max-width: 768px) {
+	.fn_cs_about_with_rating .badge_left .text {
+		font-size: 7px;
+		font-weight: 500;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		color: #d24e1a;
+		font-family: Rubik
+	}
 }
 
 .fn_cs_about_with_rating .rating_holder {
