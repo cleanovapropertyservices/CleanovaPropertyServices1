@@ -24,7 +24,7 @@ export default function MobileHeader() {
 						<div className="industify_fn_social_list">
 							<ul>
 								<li>
-									<Link href="https://www.facebook.com/cleaningco.site"><a target="_blank" rel="noreferrer">
+									<Link href="https://www.facebook.com/profile.php?id=61550201880867"><a target="_blank" rel="noreferrer">
 										<Facebook className="fn__svg" />
 									</a></Link>
 								</li>
@@ -34,15 +34,15 @@ export default function MobileHeader() {
 									</a></Link>
 								</li>
 								<li>
-									<Link href="#"><a target="_blank" rel="noreferrer">
+									<Link href="https://www.instagram.com/cleanovapropertyservices/"><a target="_blank" rel="noreferrer">
 										<Instagram className="fn__svg" />
 									</a></Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link href="#"><a target="_blank" rel="noreferrer">
 										<Vk className="fn__svg" />
 									</a></Link>
-								</li>
+								</li> */}
 								<li>
 									<Link href="#"><a target="_blank" rel="noreferrer">
 										<Linkedin className="fn__svg" />
