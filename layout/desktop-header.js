@@ -166,7 +166,7 @@ export default function DesktopHeader() {
                             <span className="shape3"></span>
                             <div className="tf_in">
                                 <div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
-                                <p><span>Call Now:</span> <Link href="tel:+64223993001"><a>(+64) 223 - 993 - 001</a></Link></p>
+                                <p><span>Call Now:</span> <Link href="tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link></p>
                                 <p>Wellington city</p>
                             </div>
                         </div>
