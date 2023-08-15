@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <meta name="description" content="Industify" />
-        <meta name="author" content="TrendyCoder" />
+        <meta name="author" content="Creative3Bx" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         {/* <!-- Google Fonts --> */}

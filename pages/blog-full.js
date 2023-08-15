@@ -42,7 +42,7 @@ export default function BlogFull() {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >TrendyCoder</a></Link></span>
+												<span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank" >Creative3Bx</a></Link></span>
 												<span className="t_category">In NewZealand</span>
 											</p>
 										</div>
@@ -68,7 +68,7 @@ export default function BlogFull() {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank">TrendyCoder</a></Link></span>
+												<span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank">Creative3Bx</a></Link></span>
 												<span className="t_category">In Discussion</span>
 											</p>
 										</div>
@@ -94,7 +94,7 @@ export default function BlogFull() {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank">TrendyCoder</a></Link></span>
+												<span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank">Creative3Bx</a></Link></span>
 												<span className="t_category">In Industry</span>
 											</p>
 										</div>
@@ -116,7 +116,7 @@ export default function BlogFull() {
 									<div className="content_holder">
 										<div className="info_holder">
 											<p>
-												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank">TrendyCoder</a></Link></span>
+												<span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank">Creative3Bx</a></Link></span>
 												<span className="t_category">In Planning</span>
 											</p>
 										</div>

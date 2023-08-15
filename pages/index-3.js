@@ -498,7 +498,7 @@ export default function Index3() {
 									</div>
 								</div>
 								<div className="contact_right">
-									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="TrendyCoderteam@gmail.com">
+									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="cleanovapropertyservices@gmail.com">
 
 
 										{/* Don't remove below code in avoid to work contact form properly.
@@ -556,7 +556,7 @@ export default function Index3() {
 												<img src="img/thumb/370-250.jpg" alt="" />
 											</div>
 											<div className="beta_t_holder">
-												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" rel="noreferrer">TrendyCoder</a></Link></span> / <span>August 28, 2018</span></p>
+												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank" rel="noreferrer">Creative3Bx</a></Link></span> / <span>August 28, 2018</span></p>
 												<h3><Link href="/blog-single-1"><a>Laing O’Rourke: Moves, projects and bids</a></Link></h3>
 											</div>
 										</div>
@@ -568,7 +568,7 @@ export default function Index3() {
 												<img src="img/thumb/370-250.jpg" alt="" />
 											</div>
 											<div className="beta_t_holder">
-												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" rel="noreferrer">TrendyCoder</a></Link></span> / <span>August 27, 2018</span></p>
+												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank" rel="noreferrer">Creative3Bx</a></Link></span> / <span>August 27, 2018</span></p>
 												<h3><Link href="/blog-single-2"><a>How to turn Victorian gasholders apartments</a></Link></h3>
 											</div>
 										</div>
@@ -580,7 +580,7 @@ export default function Index3() {
 												<img src="img/thumb/370-250.jpg" alt="" />
 											</div>
 											<div className="beta_t_holder">
-												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" rel="noreferrer">TrendyCoder</a></Link></span> / <span>August 26, 2018</span></p>
+												<p className="t_header"><span className="t_author">By <Link href="https://themeforest.net/user/Creative3Bx"><a target="_blank" rel="noreferrer">Creative3Bx</a></Link></span> / <span>August 26, 2018</span></p>
 												<h3><Link href="https://industify.frenify.net/1/citb-appoints-peter-lauener-as-new-chairman/"><a>CITB appoints Peter Lauener as new chairman</a></Link></h3>
 											</div>
 										</div>
