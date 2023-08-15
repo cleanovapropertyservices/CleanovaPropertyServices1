@@ -21,7 +21,7 @@ export default function DesktopHeader() {
                             <Link href="tel:+64220455048  "><a>(+64) 220 - 455 - 048</a></Link>
                         </div>
                         <div className="info">
-                            <Link href="mailto:rendycoder.com@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link>
+                            <Link href="mailto:CleanovaPropertyServices@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link>
                         </div>
                         <div className="industify_fn_social_list">
                             <ul>
