@@ -19,7 +19,7 @@ export default function MobileHeader() {
 			<div className="industify_fn_mobilemenu_wrap">
 				<div className="industify_fn_toppanel">
 					<div className="left_panel">
-						<div className="info"><Link href="tel:+64220455048"><a>(+64) 220 - 455 - 048</a></Link></div>
+						<div className="info"><Link href="tel:+64223993001"><a>(+64) 223 - 993 - 001</a></Link></div>
 						<div className="info"><Link href="mailto:CleanovaPropertyServices@gmail.com"><a>CleanovaPropertyServices@gmail.com</a></Link></div>
 						<div className="industify_fn_social_list">
 							<ul>
@@ -67,7 +67,7 @@ export default function MobileHeader() {
 						<span className="shape3"></span>
 						<div className="tf_in">
 							<div className="img_holder" style={{ backgroundImage: `url(${background})` }}></div>
-							<p><span><span className='call'>Call Now:</span> <a href='tel:+64223993001'>(+64) 223-993-001</a></span></p>
+							<p><span><span className='call'>Call Now:</span> <a href='tel:+64220455048'>(+64) 220-455-048</a></span></p>
 						</div>
 					</div>
 				</div>
