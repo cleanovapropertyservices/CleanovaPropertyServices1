@@ -97,7 +97,7 @@ export default function Index() {
                   <div className="title_holder">
                     <h3 className="title">Cleanova P.S. Beyond Clean</h3>
                     <p>
-                      Established five years ago, Cleanova Property Services set
+                      Established ten years ago, Cleanova Property Services set
                       out from Porirua city with a mission to redefine the
                       essence of cleanliness. Our touch transforms both
                       commercial and residential spaces, ensuring unparalleled
@@ -263,7 +263,7 @@ export default function Index() {
                             </h3>
                           </div>
                           <div className="b_desc">
-                            <span className="year">5</span>
+                            <span className="year">10</span>
                             <span className="text">Years of Experience</span>
                           </div>
                         </div>
