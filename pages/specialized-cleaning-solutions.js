@@ -73,7 +73,7 @@ export default function Services() {
 												</div>
 												<div className="title">
 													<h3><Link href="#"><a>Comprehensive Springtime Cleaning</a></Link></h3>
-													<p>Spring in Oz means one thing - a proper clean-up! We tackle every nook and cranny, ensuring your home shines brighter than the Southern Cross. With our springtime cleaning, every corner of your space will feel rejuvenated and ready for the year ahead.</p>
+													<p>Spring in NZ means one thing - a proper clean-up! We tackle every nook and cranny, ensuring your home shines brighter than the Southern Cross. With our springtime cleaning, every corner of your space will feel rejuvenated and ready for the year ahead.</p>
 												</div>
 											</div>
 										</div>
