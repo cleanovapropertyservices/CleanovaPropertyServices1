@@ -96,6 +96,11 @@ body{
 	width: 18px;
 	height: 18px;
 }
+.fn__svgGooglePlus{
+	fill: currentcolor;
+	width: 20px;
+	height: 20px;
+}
 h1,h2,h3,h4,h5,h6{line-height: 1.2;font-weight: 400;font-family: 'Rubik';color: #14141C;}
 h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color: #14141c;}
 h1>a:hover,h2>a:hover,h3>a:hover,h4>a:hover,h5>a:hover,h6>a:hover{color: #316397;}

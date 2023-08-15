@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { Facebook, Instagram, Linkedin, Twitter, Vk } from '../public/svg/social/IconSocial';
+import { Facebook, Instagram, Linkedin, Twitter, GooglePlus} from '../public/svg/social/IconSocial';
 
 const background = "/img/about/supportContact.png"
 
@@ -40,11 +40,11 @@ export default function DesktopHeader() {
 										<Instagram className="fn__svg" />
 									</a></Link>
 								</li>
-								{/* <li>
-									<Link href="#"><a target="_blank" rel="noreferrer">
-										<Vk className="fn__svg" />
+								<li>
+									<Link href="https://g.page/r/CdfFEcclKhlMEB0/"><a target="_blank" rel="noreferrer">
+										<GooglePlus className="fn__svgGooglePlus" />
 									</a></Link>
-								</li> */}
+								</li>
 								<li>
 									<Link href="https://www.linkedin.com/in/cleanova-property-services-6605aa288/"><a target="_blank" rel="noreferrer">
 										<Linkedin className="fn__svg" />
