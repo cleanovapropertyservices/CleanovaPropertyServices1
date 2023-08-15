@@ -47,15 +47,15 @@ export default function BlogSingle1() {
 									</div>
 
 									<div className="desc_holder">
-										<h5>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering.</h5>
+										<h5>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering.</h5>
 										<ul>
 											<li>Acquisition of 100% of Seymour Whyte’s shares</li>
 											<li>2017 revenue of A$433 million</li>
 											<li>VINCI Construction expansion in the Pacific area</li>
 										</ul>
 										<p>On 23 October 2017, VINCI Construction finalised the acquisition of the Seymour Whyte company based in Queensland. The acquisition was finalised followed purchase of 100% of the shares of the company previously listed on the Sydney stock exchange.</p>
-										<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering, earthworks and utilities, notably for the construction of roads, bridges and water and pipeline infrastructure.</p>
-										<blockquote>“Seymour Whyte is a company that resembles us, with a strong entrepreneurial culture. This acquisition will enable us to expand synergies with VINCI Construction’s existing expertise in Australia and more broadly in the Pacific area,” said Jérôme Stubler, Chairman and Chief Executive Officer of VINCI Construction.</blockquote>
+										<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering, earthworks and utilities, notably for the construction of roads, bridges and water and pipeline infrastructure.</p>
+										<blockquote>“Seymour Whyte is a company that resembles us, with a strong entrepreneurial culture. This acquisition will enable us to expand synergies with VINCI Construction’s existing expertise in NewZealand and more broadly in the Pacific area,” said Jérôme Stubler, Chairman and Chief Executive Officer of VINCI Construction.</blockquote>
 										<p>
 											<img className="alignleft" src="img/widget/1.png" alt="" />
 											This acquisition, added to that of HEB Construction in New Zealand in 2015, strengthens VINCI Construction’s operations in the Pacific area, where it generated 2016 revenue of €549 million, employs 2,000 people and delivers wide-ranging expertise in the highway construction, civil engineering, soil reinforcement and oil &amp; gas sectors.
@@ -68,7 +68,7 @@ export default function BlogSingle1() {
 									<div className="industify_fn_tags">
 										<label>Tags:</label>
 										<Link href="#"><a>2017</a></Link>
-										<Link href="#"><a>Australia</a></Link>
+										<Link href="#"><a>NewZealand</a></Link>
 										<Link href="#"><a>Construction</a></Link>
 										<Link href="#"><a>New Contract</a></Link>
 										<Link href="#"><a>Upgrade</a></Link>

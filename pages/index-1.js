@@ -438,7 +438,7 @@ export default function Index1() {
                           <img src="/img/thumb/370-250.jpg" alt="" />
                         </div>
                         <div className="title_holder">
-                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
+                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>NewZealand</a></Link></p>
                           <h3><Link href="/blog-single-1"><a>Laing O’Rourke: Moves, projects and bids</a></Link></h3>
                           <p className="t_footer"><Link href="/blog-single-1"><a>Read More</a></Link></p>
                         </div>
@@ -457,7 +457,7 @@ export default function Index1() {
                           <img src="/img/thumb/370-250.jpg" alt="" />
                         </div>
                         <div className="title_holder">
-                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
+                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>NewZealand</a></Link></p>
                           <h3><Link href="/blog-single-2"><a>How to turn Victorian gasholders apartments</a></Link></h3>
                           <p className="t_footer"><Link href="/blog-single-2"><a>Read More</a></Link></p>
                         </div>
@@ -476,7 +476,7 @@ export default function Index1() {
                           <img src="/img/thumb/370-250.jpg" alt="" />
                         </div>
                         <div className="title_holder">
-                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>Australia</a></Link></p>
+                          <p className="t_header">By <Link href="#"><a>Frenify</a></Link> — In <Link href="#"><a>NewZealand</a></Link></p>
                           <h3><Link href="/blog-single-3"><a>CITB appoints Peter Lauener as new chairman</a></Link></h3>
                           <p className="t_footer"><Link href="/blog-single-3"><a>Read More</a></Link></p>
                         </div>

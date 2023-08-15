@@ -43,14 +43,14 @@ export default function BlogFull() {
 										<div className="info_holder">
 											<p>
 												<span className="t_author">By <Link href="https://themeforest.net/user/trendycoder"><a target="_blank" >TrendyCoder</a></Link></span>
-												<span className="t_category">In Australia</span>
+												<span className="t_category">In NewZealand</span>
 											</p>
 										</div>
 										<div className="title">
 											<h3><Link href="/blog-single-1"><a>Laing O’Rourke: Moves, projects and bids</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
+											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href="/blog-single-1"><a>Read More</a></Link></p>
@@ -76,7 +76,7 @@ export default function BlogFull() {
 											<h3><Link href="/blog-single-2"><a>How to turn Victorian gasholders apartments</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
+											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href="/blog-single-2"><a>Read More</a></Link></p>
@@ -102,7 +102,7 @@ export default function BlogFull() {
 											<h3><Link href="/blog-single-3"><a>CITB appoints Peter Lauener as new chairman</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
+											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href="/blog-single-3"><a>Read More</a></Link></p>
@@ -124,7 +124,7 @@ export default function BlogFull() {
 											<h3><Link href="/blog-single-4"><a>New Tower in the Centre of Warsaw</a></Link></h3>
 										</div>
 										<div className="excerpt_holder">
-											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known Australian company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
+											<p>Seymour Whyte employs 475 people and generated revenue of A$433 million in the fiscal year ended on 30 June 2017. Founded in 1987, Seymour Whyte is a well-known NewZealand company operating in the fields of civil engineering. Acquisition of 100% of Seymour Whyte’s shares 2017</p>
 										</div>
 										<div className="read_holder">
 											<p><Link href="/blog-single-4"><a>Read More</a></Link></p>
